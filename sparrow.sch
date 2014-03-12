@@ -7425,6 +7425,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </polygon>
 </package>
 <package name="1210_POLAR">
+<description>1210 package with anode/cathode marking</description>
 <wire x1="-2.15" y1="1.4" x2="2.15" y2="1.4" width="0.0508" layer="39"/>
 <wire x1="2.15" y1="-1.4" x2="-2.15" y2="-1.4" width="0.0508" layer="39"/>
 <wire x1="-2.15" y1="-1.4" x2="-2.15" y2="1.4" width="0.0508" layer="39"/>
@@ -7439,9 +7440,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.127" layer="51"/>
 <wire x1="-0.9" y1="1.25" x2="0.9" y2="1.25" width="0.127" layer="21"/>
 <wire x1="-0.9" y1="-1.25" x2="0.9" y2="-1.25" width="0.127" layer="21"/>
-<text x="-0.8" y="-0.5" size="1" layer="21" font="vector">+-</text>
+<text x="0" y="0" size="1" layer="21" font="vector" align="center">+-</text>
 </package>
-<package name="QFN23-0.5-EP-VIAS">
+<package name="QFN32-0.5-EP-VIAS">
+<description>QFN package, 32 pins, 0.5mm pitch, exposed pad with 9 thermal vias</description>
 <smd name="1" x="-2.475" y="1.75" dx="0.8" dy="0.23" layer="1" roundness="100"/>
 <smd name="2" x="-2.475" y="1.25" dx="0.8" dy="0.23" layer="1" roundness="100"/>
 <smd name="3" x="-2.475" y="0.75" dx="0.8" dy="0.23" layer="1" roundness="100"/>
@@ -7488,16 +7490,16 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="-2.5" y1="-2.1" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="-2.5" y1="-2.5" x2="-2.1" y2="-2.5" width="0.127" layer="21"/>
 <circle x="-2.5" y="2.5" radius="0.25" width="0" layer="21"/>
-<text x="-2" y="-4.5" size="1" layer="21" font="vector">&gt;NAME</text>
-<pad name="VIA1" x="-1.3" y="1.3" drill="0.3"/>
-<pad name="VIA3" x="1.3" y="1.3" drill="0.3"/>
-<pad name="VIA9" x="1.3" y="-1.3" drill="0.3"/>
-<pad name="VIA7" x="-1.3" y="-1.3" drill="0.3"/>
-<pad name="VIA4" x="-1.3" y="0" drill="0.3"/>
-<pad name="VIA5" x="0" y="0" drill="0.3"/>
-<pad name="VIA2" x="0" y="1.3" drill="0.3"/>
-<pad name="VIA6" x="1.3" y="0" drill="0.3"/>
-<pad name="VIA8" x="0" y="-1.3" drill="0.3"/>
+<text x="-2" y="-4.5" size="1" layer="25" font="vector">&gt;NAME</text>
+<pad name="VIA1" x="-1.3" y="1.3" drill="0.3" stop="no" thermals="no"/>
+<pad name="VIA3" x="1.3" y="1.3" drill="0.3" stop="no" thermals="no"/>
+<pad name="VIA9" x="1.3" y="-1.3" drill="0.3" stop="no" thermals="no"/>
+<pad name="VIA7" x="-1.3" y="-1.3" drill="0.3" stop="no" thermals="no"/>
+<pad name="VIA4" x="-1.3" y="0" drill="0.3" stop="no" thermals="no"/>
+<pad name="VIA5" x="0" y="0" drill="0.3" stop="no" thermals="no"/>
+<pad name="VIA2" x="0" y="1.3" drill="0.3" stop="no" thermals="no"/>
+<pad name="VIA6" x="1.3" y="0" drill="0.3" stop="no" thermals="no"/>
+<pad name="VIA8" x="0" y="-1.3" drill="0.3" stop="no" thermals="no"/>
 </package>
 <package name="QFN48_EP">
 <smd name="PAD" x="0" y="0" dx="4.6" dy="4.6" layer="1" roundness="5"/>
@@ -7948,7 +7950,8 @@ Created by Robert Siegler</description>
 </package>
 <package name="CUI_PJ_102BH">
 <description>&lt;h3&gt;CUI PJ-102BH&lt;/h3&gt;
-&lt;p&gt;Power jack for 5.5 x 2.5 plugs. Through-hole component with almost circular pins, no need for slit routing. Rated 24V 5A. &lt;/p&gt;</description>
+&lt;p&gt;Power jack for 5.5 x 2.5 plugs. Through-hole component with almost circular pins, no need for slit routing. Rated 24V 5A. &lt;/p&gt;
+&lt;p&gt;CUI PJ-102AH is identical, but for 5.5 x 2.1 plugs.&lt;/p&gt;</description>
 <wire x1="-10.7" y1="-4.5" x2="-10.7" y2="4.5" width="0.127" layer="51"/>
 <wire x1="-10.7" y1="4.5" x2="3" y2="4.5" width="0.127" layer="51"/>
 <wire x1="-10.7" y1="-4.5" x2="3" y2="-4.5" width="0.127" layer="51"/>
@@ -7964,14 +7967,14 @@ Created by Robert Siegler</description>
 <wire x1="3" y1="-2.921" x2="3" y2="-4.5" width="0.127" layer="21"/>
 <wire x1="-2.794" y1="-4.5" x2="-10.7" y2="-4.5" width="0.127" layer="21"/>
 <wire x1="-10.7" y1="-4.5" x2="-10.7" y2="4.5" width="0.127" layer="21"/>
-<pad name="2" x="0" y="-4.699" drill="2" diameter="2.54" shape="long"/>
-<pad name="1" x="-3" y="0" drill="2" diameter="2.54" shape="long" rot="R90"/>
-<pad name="3" x="3" y="0" drill="2" diameter="2.54" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-4.699" drill="1.2" diameter="2.4" shape="long"/>
+<pad name="1" x="-3" y="0" drill="1.2" diameter="2.4" shape="long" rot="R90"/>
+<pad name="3" x="3" y="0" drill="1.2" diameter="2.4" shape="long" rot="R90"/>
 <text x="-10.16" y="5.08" size="0.6096" layer="25" font="vector">&gt;NAME</text>
 <text x="-10.16" y="-6.35" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="-0.8" y1="-5.2" x2="0.8" y2="-4.2" layer="51" rot="R180"/>
-<rectangle x1="2.5" y1="-0.8" x2="3.5" y2="0.8" layer="51"/>
-<rectangle x1="-3.5" y1="-0.8" x2="-2.5" y2="0.8" layer="51"/>
+<rectangle x1="-0.5" y1="-4.9" x2="0.5" y2="-4.5" layer="51"/>
+<rectangle x1="2.8" y1="-0.5" x2="3.2" y2="0.5" layer="51"/>
+<rectangle x1="-3.2" y1="-0.5" x2="-2.8" y2="0.5" layer="51"/>
 </package>
 <package name="FXMA108">
 <description>Fairchild bidirectional 8 channel level translator 20-DFN package</description>
@@ -10589,7 +10592,7 @@ Created by Robert Siegler</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="VIAS" package="QFN23-0.5-EP-VIAS">
+<device name="VIAS" package="QFN32-0.5-EP-VIAS">
 <connects>
 <connect gate="G$1" pin="!RESET" pad="31"/>
 <connect gate="G$1" pin="AVDD" pad="17"/>
