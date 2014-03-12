@@ -13029,7 +13029,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="R22" library="anykey" deviceset="R-EU_" device="0603" value="2K2"/>
 <part name="R23" library="anykey" deviceset="R-EU_" device="0603" value="2K2"/>
 <part name="U$47" library="anykey" deviceset="VD33" device=""/>
-<part name="U$50" library="anykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
+<part name="U$50" library="anykey" deviceset="JUMPER" device="SOLDER_CLOSED" value="JUMPERSOLDER_CLOSED"/>
 <part name="U$51" library="anykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
 <part name="U$52" library="anykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
 <part name="U$53" library="anykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
@@ -16357,14 +16357,6 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <pinref part="U$61" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="AUDIO_DIN" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="DIN"/>
-<wire x1="55.88" y1="38.1" x2="7.62" y2="38.1" width="0.1524" layer="91"/>
-<label x="17.78" y="38.1" size="1.778" layer="95"/>
-<pinref part="U$50" gate="G$1" pin="P$2"/>
-</segment>
-</net>
 <net name="AUDIO_DOUT" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="DOUT"/>
@@ -16590,6 +16582,14 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <pinref part="P3" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="15.24" x2="0" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="0" y1="15.24" x2="0" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AUDIO_DIN" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="DIN"/>
+<wire x1="55.88" y1="38.1" x2="7.62" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="U$50" gate="G$1" pin="P$2"/>
+<label x="17.78" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
