@@ -3844,9 +3844,9 @@ design rules under a new name.</description>
 <element name="ADC" library="anykey" package="1X07_ROUND" value="HEADER-1X7ROUND" x="1.905" y="60.325" smashed="yes" rot="R90">
 <attribute name="NAME" x="1.0588" y="69.5238" size="0.8" layer="25" font="vector" ratio="10"/>
 </element>
-<element name="LOGO2" library="anykey" package="LOGO-KRONE" value="LOGOKRONE" x="53.8" y="30" rot="MR180"/>
-<element name="LOGO3" library="anykey" package="LOGO-KRONE" value="LOGOKRONE" x="32.8" y="30" rot="MR180"/>
-<element name="LOGO4" library="anykey" package="LOGO-KRONE" value="LOGOKRONE" x="12.1" y="30" rot="MR180"/>
+<element name="LOGO2" library="anykey" package="LOGO-KRONE" value="LOGOKRONE" x="50.6" y="30" rot="MR180"/>
+<element name="LOGO3" library="anykey" package="LOGO-KRONE" value="LOGOKRONE" x="31.6" y="30" rot="MR180"/>
+<element name="LOGO4" library="anykey" package="LOGO-KRONE" value="LOGOKRONE" x="12.6" y="30" rot="MR180"/>
 <element name="R40" library="anykey" package="0603" value="33" x="48" y="37.8" smashed="yes">
 <attribute name="NAME" x="47.078" y="38.354" size="0.8" layer="25" font="vector"/>
 </element>
@@ -4394,7 +4394,7 @@ design rules under a new name.</description>
 <via x="65.1" y="46.4" extent="1-16" drill="0.3"/>
 <via x="43.8" y="45.1" extent="1-16" drill="0.3"/>
 <via x="48.6" y="33" extent="1-16" drill="0.3"/>
-<via x="44.3" y="14" extent="1-16" drill="0.3"/>
+<via x="44" y="14" extent="1-16" drill="0.3"/>
 <via x="36.7" y="61.3" extent="1-16" drill="0.3"/>
 <via x="52.9" y="60.3" extent="1-16" drill="0.3"/>
 <via x="56.2" y="26.9" extent="1-16" drill="0.3"/>
@@ -4447,7 +4447,7 @@ design rules under a new name.</description>
 <wire x1="71.45" y1="44.6" x2="71.45" y2="43.85" width="0.5" layer="1"/>
 <wire x1="71.45" y1="44.6" x2="69.4" y2="44.6" width="0.5" layer="1"/>
 <wire x1="71.45" y1="44.6" x2="73.6" y2="44.6" width="0.5" layer="1"/>
-<via x="38.3" y="14" extent="1-16" drill="0.3"/>
+<via x="36" y="14" extent="1-16" drill="0.3"/>
 <via x="25.8" y="5.7" extent="1-16" drill="0.3"/>
 <via x="56.1" y="6.9" extent="1-16" drill="0.3"/>
 <contactref element="LED4" pad="K"/>
