@@ -2016,6 +2016,7 @@ Source: http://www.vishay.com/docs/31059/wsrhigh.pdf</description>
 <wire x1="-0.127" y1="2.1" x2="0.127" y2="2.1" width="0.127" layer="21"/>
 </package>
 <package name="2X05_SMT">
+<description>1.27mm pitch 2x5 header, SMD</description>
 <smd name="1" x="-2.54" y="-1.95" dx="2.4" dy="0.762" layer="1" rot="R90"/>
 <smd name="2" x="-2.54" y="1.95" dx="2.4" dy="0.762" layer="1" rot="R90"/>
 <smd name="3" x="-1.27" y="-1.95" dx="2.4" dy="0.762" layer="1" rot="R90"/>
@@ -2028,7 +2029,8 @@ Source: http://www.vishay.com/docs/31059/wsrhigh.pdf</description>
 <smd name="10" x="2.54" y="1.95" dx="2.4" dy="0.762" layer="1" rot="R90"/>
 <wire x1="-3.175" y1="1.715" x2="-3.175" y2="-1.715" width="0.127" layer="21"/>
 <wire x1="3.175" y1="1.715" x2="3.175" y2="-1.715" width="0.127" layer="21"/>
-<text x="4.445" y="-1.905" size="0.8128" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="-3.4" y="-2" size="0.8" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="4.2" y="-2" size="0.8" layer="27" font="vector" rot="R90">&gt;VALUE</text>
 </package>
 <package name="MA506">
 <wire x1="-8.255" y1="2.794" x2="-8.255" y2="0.381" width="0.127" layer="21"/>
@@ -2347,35 +2349,6 @@ Source: http://www.vishay.com/docs/31059/wsrhigh.pdf</description>
 <smd name="2" x="0.6" y="0" dx="1" dy="0.86" layer="1" cream="no"/>
 <text x="1.778" y="0.254" size="0.5" layer="25" font="vector">&gt;NAME</text>
 <text x="1.778" y="-0.635" size="0.5" layer="27" font="vector">&gt;VALUE</text>
-</package>
-<package name="1X10_ROUND">
-<wire x1="-12.7" y1="0.635" x2="-12.7" y2="-0.635" width="0.127" layer="21"/>
-<pad name="1" x="-11.43" y="0" drill="1" shape="square" rot="R90"/>
-<pad name="2" x="-8.89" y="0" drill="1" rot="R90"/>
-<pad name="3" x="-6.35" y="0" drill="1" rot="R90"/>
-<pad name="4" x="-3.81" y="0" drill="1" rot="R90"/>
-<pad name="5" x="-1.27" y="0" drill="1" rot="R90"/>
-<pad name="6" x="1.27" y="0" drill="1" rot="R90"/>
-<pad name="7" x="3.81" y="0" drill="1" rot="R90"/>
-<pad name="8" x="6.35" y="0" drill="1" rot="R90"/>
-<text x="-11.43" y="3.175" size="0.6096" layer="25" font="vector">&gt;NAME</text>
-<text x="-11.43" y="2.2225" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="-11.7475" y1="-0.3175" x2="-11.1125" y2="0.3175" layer="51"/>
-<rectangle x1="-9.2075" y1="-0.3175" x2="-8.5725" y2="0.3175" layer="51"/>
-<rectangle x1="-9.2075" y1="-0.3175" x2="-8.5725" y2="0.3175" layer="51"/>
-<rectangle x1="-6.6675" y1="-0.3175" x2="-6.0325" y2="0.3175" layer="51"/>
-<rectangle x1="-4.1275" y1="-0.3175" x2="-3.4925" y2="0.3175" layer="51"/>
-<rectangle x1="-1.5875" y1="-0.3175" x2="-0.9525" y2="0.3175" layer="51"/>
-<rectangle x1="-1.5875" y1="-0.3175" x2="-0.9525" y2="0.3175" layer="51"/>
-<rectangle x1="0.9525" y1="-0.3175" x2="1.5875" y2="0.3175" layer="51"/>
-<rectangle x1="0.9525" y1="-0.3175" x2="1.5875" y2="0.3175" layer="51"/>
-<rectangle x1="3.4925" y1="-0.3175" x2="4.1275" y2="0.3175" layer="51"/>
-<rectangle x1="3.4925" y1="-0.3175" x2="4.1275" y2="0.3175" layer="51"/>
-<rectangle x1="6.0325" y1="-0.3175" x2="6.6675" y2="0.3175" layer="51"/>
-<pad name="9" x="8.89" y="0" drill="1" rot="R90"/>
-<rectangle x1="8.5725" y1="-0.3175" x2="9.2075" y2="0.3175" layer="51"/>
-<pad name="10" x="11.43" y="0" drill="1" rot="R90"/>
-<rectangle x1="11.1125" y1="-0.3175" x2="11.7475" y2="0.3175" layer="51"/>
 </package>
 <package name="AMPHENO_101_00313_EXT_PADS">
 <description>SD card holder with larger ground pads for easier maual solderability.</description>
@@ -7752,35 +7725,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <text x="-1.1" y="-1.7" size="0.5" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.4" y="-2.3" size="0.5" layer="27" font="vector">&gt;VALUE</text>
 </package>
-<package name="1X10_OVAL">
-<wire x1="-12.7" y1="0.635" x2="-12.7" y2="-0.635" width="0.127" layer="21"/>
-<pad name="1" x="-11.43" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="2" x="-8.89" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="3" x="-6.35" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="4" x="-3.81" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="5" x="-1.27" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="6" x="1.27" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="7" x="3.81" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="8" x="6.35" y="0" drill="1" shape="long" rot="R90"/>
-<text x="-11.43" y="3.175" size="0.6096" layer="25" font="vector">&gt;NAME</text>
-<text x="-11.43" y="2.2225" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="-11.7475" y1="-0.3175" x2="-11.1125" y2="0.3175" layer="51"/>
-<rectangle x1="-9.2075" y1="-0.3175" x2="-8.5725" y2="0.3175" layer="51"/>
-<rectangle x1="-9.2075" y1="-0.3175" x2="-8.5725" y2="0.3175" layer="51"/>
-<rectangle x1="-6.6675" y1="-0.3175" x2="-6.0325" y2="0.3175" layer="51"/>
-<rectangle x1="-4.1275" y1="-0.3175" x2="-3.4925" y2="0.3175" layer="51"/>
-<rectangle x1="-1.5875" y1="-0.3175" x2="-0.9525" y2="0.3175" layer="51"/>
-<rectangle x1="-1.5875" y1="-0.3175" x2="-0.9525" y2="0.3175" layer="51"/>
-<rectangle x1="0.9525" y1="-0.3175" x2="1.5875" y2="0.3175" layer="51"/>
-<rectangle x1="0.9525" y1="-0.3175" x2="1.5875" y2="0.3175" layer="51"/>
-<rectangle x1="3.4925" y1="-0.3175" x2="4.1275" y2="0.3175" layer="51"/>
-<rectangle x1="3.4925" y1="-0.3175" x2="4.1275" y2="0.3175" layer="51"/>
-<rectangle x1="6.0325" y1="-0.3175" x2="6.6675" y2="0.3175" layer="51"/>
-<pad name="9" x="8.89" y="0" drill="1" shape="long" rot="R90"/>
-<rectangle x1="8.5725" y1="-0.3175" x2="9.2075" y2="0.3175" layer="51"/>
-<pad name="10" x="11.43" y="0" drill="1" shape="long" rot="R90"/>
-<rectangle x1="11.1125" y1="-0.3175" x2="11.7475" y2="0.3175" layer="51"/>
-</package>
 <package name="SPC4078">
 <description>&lt;b&gt;DC POWER JACK 2.5mm&lt;/b&gt; Right Angle, Through Hole, Rated 5A at 16VDC, PC Terminals&lt;p&gt;
 Source: www.spctechnology.com .. 84N1162.pdf&lt;br&gt;
@@ -10112,6 +10056,64 @@ e.g. TXC 7B</description>
 <text x="-23" y="-17" size="1" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-19" y1="-12.03" x2="-12.8" y2="10.1" layer="41"/>
 </package>
+<package name="CK_PTS810">
+<description>C&amp;K miniature pushbutton</description>
+<smd name="1" x="-2.075" y="1.075" dx="1.05" dy="0.65" layer="1"/>
+<smd name="2" x="2.075" y="1.075" dx="1.05" dy="0.65" layer="1"/>
+<smd name="3" x="-2.075" y="-1.075" dx="1.05" dy="0.65" layer="1"/>
+<smd name="4" x="2.075" y="-1.075" dx="1.05" dy="0.65" layer="1"/>
+<wire x1="-2.1" y1="1.6" x2="2.1" y2="1.6" width="0.127" layer="51"/>
+<wire x1="2.1" y1="1.6" x2="2.1" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="2.1" y1="-1.6" x2="-2.1" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="-2.1" y1="-1.6" x2="-2.1" y2="1.6" width="0.127" layer="51"/>
+<rectangle x1="-2.3" y1="0.8" x2="-2.1" y2="1.35" layer="51"/>
+<rectangle x1="-2.3" y1="-1.35" x2="-2.1" y2="-0.8" layer="51"/>
+<rectangle x1="-2.3" y1="0.8" x2="-2.1" y2="1.35" layer="51"/>
+<rectangle x1="2.1" y1="0.8" x2="2.3" y2="1.35" layer="51"/>
+<rectangle x1="2.1" y1="-1.35" x2="2.3" y2="-0.8" layer="51"/>
+<wire x1="-2.1" y1="1.6" x2="2.1" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="-1.6" x2="2.1" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="2.1" y1="0.5" x2="2.1" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="0.5" x2="-2.1" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="0.4" y1="1.1" x2="0.4" y2="-1.1" width="0.127" layer="21" curve="-180"/>
+<wire x1="-0.4" y1="-1.1" x2="-0.4" y2="1.1" width="0.127" layer="21" curve="-180"/>
+<wire x1="-0.4" y1="1.1" x2="0.4" y2="1.1" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="-1.1" x2="0.4" y2="-1.1" width="0.127" layer="21"/>
+<text x="-2" y="1.8" size="0.8" layer="25" font="vector">&gt;NAME</text>
+<text x="-2" y="-2.6" size="0.8" layer="27" font="vector">&gt;VALUE</text>
+</package>
+<package name="CUI_SJ_3523_SMT">
+<description>CUI stereo audio jack, SMD package. Should also (roughly) fit Switchcraft 35RASMT2BHNTRX.</description>
+<smd name="1" x="-1.1" y="-3.7" dx="2.2" dy="2.8" layer="1"/>
+<smd name="2" x="8.3" y="-3.7" dx="2.8" dy="2.8" layer="1"/>
+<smd name="3" x="0.9" y="3.7" dx="2.2" dy="2.8" layer="1"/>
+<hole x="0" y="0" drill="1.7"/>
+<hole x="7" y="0" drill="1.7"/>
+<wire x1="-6" y1="2.5" x2="-3.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="2.5" x2="-3.5" y2="3" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="3" x2="11" y2="3" width="0.127" layer="51"/>
+<wire x1="11" y1="3" x2="11" y2="-3" width="0.127" layer="51"/>
+<wire x1="11" y1="-3" x2="-3.5" y2="-3" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="-3" x2="-3.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="-2.5" x2="-6" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-6" y1="-2.5" x2="-6" y2="2.5" width="0.127" layer="51"/>
+<rectangle x1="0.4" y1="3" x2="1.4" y2="4.5" layer="51"/>
+<rectangle x1="-1.6" y1="-4.5" x2="-0.6" y2="-3" layer="51"/>
+<rectangle x1="7.55" y1="-4.5" x2="9.05" y2="-3" layer="51"/>
+<wire x1="2.3" y1="3" x2="11" y2="3" width="0.127" layer="21"/>
+<wire x1="11" y1="3" x2="11" y2="-3" width="0.127" layer="21"/>
+<wire x1="11" y1="-3" x2="10" y2="-3" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="3" x2="-3.5" y2="3" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="3" x2="-3.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="2.5" x2="-6" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-6" y1="2.5" x2="-6" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-6" y1="-2.5" x2="-3.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-2.5" x2="-3.5" y2="-3" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-3" x2="-2.5" y2="-3" width="0.127" layer="21"/>
+<wire x1="0.3" y1="-3" x2="6.6" y2="-3" width="0.127" layer="21"/>
+<text x="2.4" y="3.9" size="0.5" layer="25" font="vector">&gt;NAME</text>
+<text x="2.4" y="3.2" size="0.5" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="GND">
@@ -11080,6 +11082,40 @@ e.g. TXC 7B</description>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
 <pin name="HOLDER" x="10.16" y="-2.54" visible="off" length="short" rot="R180"/>
+</symbol>
+<symbol name="AUDIOJACK-STEREO-3P">
+<pin name="TIP" x="-10.16" y="2.54" length="short"/>
+<pin name="RING" x="-10.16" y="0" length="short"/>
+<pin name="SLEEVE" x="-10.16" y="-2.54" length="short"/>
+<wire x1="-7.62" y1="2.54" x2="0.254" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.254" y1="2.54" x2="0.508" y2="1.778" width="0.254" layer="94"/>
+<wire x1="0.508" y1="1.778" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="2.032" y2="0" width="0.254" layer="94"/>
+<wire x1="2.032" y1="0" x2="2.286" y2="0.762" width="0.254" layer="94"/>
+<wire x1="2.286" y1="0.762" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="4.318" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="4.318" y1="-2.54" x2="4.318" y2="0.254" width="0.254" layer="94"/>
+<wire x1="4.318" y1="0.254" x2="4.318" y2="2.54" width="0.254" layer="94"/>
+<wire x1="4.318" y1="2.54" x2="5.588" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.588" y1="2.54" x2="5.588" y2="0.254" width="0.254" layer="94"/>
+<wire x1="5.588" y1="0.254" x2="4.318" y2="0.254" width="0.254" layer="94"/>
+<wire x1="6.604" y1="2.032" x2="3.048" y2="2.032" width="0.127" layer="94"/>
+<wire x1="3.048" y1="2.032" x2="1.27" y2="2.032" width="0.127" layer="94"/>
+<wire x1="1.27" y1="2.032" x2="0.508" y2="1.778" width="0.127" layer="94"/>
+<wire x1="0.508" y1="1.778" x2="-0.254" y2="2.032" width="0.127" layer="94"/>
+<wire x1="-0.254" y1="2.032" x2="-0.762" y2="1.524" width="0.127" layer="94"/>
+<wire x1="-0.762" y1="1.524" x2="-0.762" y2="1.27" width="0.127" layer="94"/>
+<wire x1="-0.762" y1="1.27" x2="-0.254" y2="0.762" width="0.127" layer="94"/>
+<wire x1="-0.254" y1="0.762" x2="0.508" y2="1.016" width="0.127" layer="94"/>
+<wire x1="0.508" y1="1.016" x2="1.27" y2="0.762" width="0.127" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="3.048" y2="0.762" width="0.127" layer="94"/>
+<wire x1="3.048" y1="0.762" x2="6.604" y2="0.762" width="0.127" layer="94"/>
+<wire x1="6.604" y1="0.762" x2="6.604" y2="0.254" width="0.127" layer="94"/>
+<wire x1="6.604" y1="0.254" x2="7.62" y2="0.254" width="0.127" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="6.604" y2="2.54" width="0.127" layer="94"/>
+<wire x1="6.604" y1="2.54" x2="6.604" y2="2.032" width="0.127" layer="94"/>
+<wire x1="1.27" y1="2.032" x2="1.27" y2="0.762" width="0.127" layer="94"/>
+<wire x1="3.048" y1="2.032" x2="3.048" y2="0.762" width="0.127" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -12297,7 +12333,7 @@ e.g. TXC 7B</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PUSHBUTTON">
+<deviceset name="PUSHBUTTON" prefix="BTN">
 <description>&lt;p&gt;&lt;b&gt;Push button&lt;/b&gt; 1 x momentary close switches&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="TACTILE-SWITCH-MOMENTARY-CLOSE" x="0" y="0"/>
@@ -12334,6 +12370,15 @@ e.g. TXC 7B</description>
 <connects>
 <connect gate="G$1" pin="1" pad="P$1 P$2"/>
 <connect gate="G$1" pin="2" pad="P$3 P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PTS810" package="CK_PTS810">
+<connects>
+<connect gate="G$1" pin="1" pad="3 4"/>
+<connect gate="G$1" pin="2" pad="1 2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12727,47 +12772,6 @@ e.g. TXC 7B</description>
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="HEADER-1X10" prefix="P">
-<gates>
-<gate name="G$1" symbol="PINHD10" x="0" y="0"/>
-</gates>
-<devices>
-<device name="OVAL" package="1X10_OVAL">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="ROUND" package="1X10_ROUND">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14931,6 +14935,24 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="AUDIOJACK-STEREO-3P">
+<description>Audio jack, stereo, 3 pins (without plug detection)</description>
+<gates>
+<gate name="G$1" symbol="AUDIOJACK-STEREO-3P" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="CUI_SJ_3523" package="CUI_SJ_3523_SMT">
+<connects>
+<connect gate="G$1" pin="RING" pad="3"/>
+<connect gate="G$1" pin="SLEEVE" pad="1"/>
+<connect gate="G$1" pin="TIP" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -15079,7 +15101,6 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="TX_SCK" library="anykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
 <part name="RX_SCK" library="anykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
 <part name="MCLK" library="anykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
-<part name="I2S" library="anykey" deviceset="HEADER-1X10" device="ROUND" value="HEADER-1X10ROUND"/>
 <part name="U$48" library="anykey" deviceset="VD33" device=""/>
 <part name="U$49" library="anykey" deviceset="GND" device=""/>
 <part name="SD_CARD" library="anykey" deviceset="SD_CARD" device="EXTENDED"/>
@@ -15200,6 +15221,8 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="LED3" library="anykey" deviceset="LED" device="0603"/>
 <part name="LED4" library="anykey" deviceset="LED" device="0603"/>
 <part name="U$19" library="anykey" deviceset="GND" device=""/>
+<part name="I2S" library="anykey" deviceset="HEADER-2X5" device="SMD-1.27MM"/>
+<part name="HEADPHONE" library="anykey" deviceset="AUDIOJACK-STEREO-3P" device="CUI_SJ_3523"/>
 </parts>
 <sheets>
 <sheet>
@@ -18467,11 +18490,12 @@ Only one star connection from PGND to GND below TPS2500.</text>
 <instance part="TX_SCK" gate="G$1" x="2.54" y="27.94"/>
 <instance part="RX_SCK" gate="G$1" x="2.54" y="25.4"/>
 <instance part="MCLK" gate="G$1" x="2.54" y="22.86"/>
-<instance part="I2S" gate="G$1" x="-10.16" y="10.16" rot="R270"/>
 <instance part="U$48" gate="G$1" x="7.62" y="15.24"/>
 <instance part="U$49" gate="G$1" x="7.62" y="7.62"/>
 <instance part="A_SDA" gate="G$1" x="2.54" y="43.18"/>
 <instance part="A_SCL" gate="G$1" x="2.54" y="45.72"/>
+<instance part="I2S" gate="G$1" x="-12.7" y="-7.62" rot="R270"/>
+<instance part="HEADPHONE" gate="G$1" x="139.7" y="25.4"/>
 </instances>
 <busses>
 <bus name="I2S:I2S_TX_SCK,I2S_TX_WS,I2S_TX_SD,I2S_RX_SCK,I2S_RX_WS,I2S_RX_SD,I2S_TX_MCLK,I2S_RX_MCLK">
@@ -18550,6 +18574,11 @@ Only one star connection from PGND to GND below TPS2500.</text>
 <pinref part="HP" gate="A" pin="2"/>
 <wire x1="116.84" y1="25.4" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
 <junction x="91.44" y="25.4"/>
+<wire x1="127" y1="17.78" x2="91.44" y2="17.78" width="0.1524" layer="91"/>
+<junction x="91.44" y="17.78"/>
+<wire x1="127" y1="17.78" x2="127" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="HEADPHONE" gate="G$1" pin="SLEEVE"/>
+<wire x1="127" y1="22.86" x2="129.54" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$40" gate="G$1" pin="GND"/>
@@ -18564,9 +18593,9 @@ Only one star connection from PGND to GND below TPS2500.</text>
 <segment>
 <pinref part="U$49" gate="G$1" pin="GND"/>
 <wire x1="7.62" y1="7.62" x2="7.62" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="12.7" x2="-5.08" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="I2S" gate="G$1" pin="2"/>
-<wire x1="7.62" y1="12.7" x2="-2.54" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="12.7" x2="-5.08" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPKP" class="0">
@@ -18604,6 +18633,9 @@ Only one star connection from PGND to GND below TPS2500.</text>
 <pinref part="C50" gate="G$1" pin="P$2"/>
 <pinref part="HP" gate="A" pin="1"/>
 <wire x1="109.22" y1="27.94" x2="116.84" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="HEADPHONE" gate="G$1" pin="TIP"/>
+<wire x1="116.84" y1="27.94" x2="129.54" y2="27.94" width="0.1524" layer="91"/>
+<junction x="116.84" y="27.94"/>
 </segment>
 </net>
 <net name="HP_R" class="0">
@@ -18611,6 +18643,11 @@ Only one star connection from PGND to GND below TPS2500.</text>
 <pinref part="C51" gate="G$1" pin="P$2"/>
 <pinref part="HP" gate="A" pin="3"/>
 <wire x1="109.22" y1="22.86" x2="116.84" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="22.86" x2="124.46" y2="22.86" width="0.1524" layer="91"/>
+<junction x="116.84" y="22.86"/>
+<wire x1="124.46" y1="22.86" x2="124.46" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="HEADPHONE" gate="G$1" pin="RING"/>
+<wire x1="124.46" y1="25.4" x2="129.54" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LINEIN1" class="0">
@@ -18655,21 +18692,6 @@ Only one star connection from PGND to GND below TPS2500.</text>
 <pinref part="IC2" gate="G$1" pin="MICBIAS"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="63.5" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="MIC" class="0">
-<segment>
-<pinref part="C54" gate="G$1" pin="P$1"/>
-<wire x1="43.18" y1="66.04" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="66.04" x2="40.64" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="63.5" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
-<junction x="40.64" y="63.5"/>
-<pinref part="IC2" gate="G$1" pin="VOL/MICDET"/>
-<wire x1="40.64" y1="58.42" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="MIC" gate="G$1" pin="2"/>
-<wire x1="33.02" y1="66.04" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
-<junction x="40.64" y="66.04"/>
 </segment>
 </net>
 <net name="AUDIO_!RESET" class="0">
@@ -18754,10 +18776,10 @@ Only one star connection from PGND to GND below TPS2500.</text>
 <pinref part="TX_SD" gate="G$1" pin="P$1"/>
 <wire x1="-2.54" y1="38.1" x2="-20.32" y2="38.1" width="0.1524" layer="91"/>
 <label x="-40.64" y="38.1" size="1.778" layer="95"/>
-<pinref part="I2S" gate="G$1" pin="9"/>
 <wire x1="-20.32" y1="38.1" x2="-43.18" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="10.16" x2="-20.32" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-7.62" x2="-20.32" y2="38.1" width="0.1524" layer="91"/>
 <junction x="-20.32" y="38.1"/>
+<pinref part="I2S" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="I2S_RX_SD" class="0">
@@ -18765,65 +18787,65 @@ Only one star connection from PGND to GND below TPS2500.</text>
 <pinref part="RX_SD" gate="G$1" pin="P$1"/>
 <wire x1="-2.54" y1="35.56" x2="-17.78" y2="35.56" width="0.1524" layer="91"/>
 <label x="-40.64" y="35.56" size="1.778" layer="95"/>
-<pinref part="I2S" gate="G$1" pin="8"/>
 <wire x1="-17.78" y1="35.56" x2="-43.18" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="10.16" x2="-17.78" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="-7.62" x2="-17.78" y2="35.56" width="0.1524" layer="91"/>
 <junction x="-17.78" y="35.56"/>
+<pinref part="I2S" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="I2S_TX_WS" class="0">
 <segment>
-<pinref part="I2S" gate="G$1" pin="7"/>
 <pinref part="TX_WS" gate="G$1" pin="P$1"/>
 <wire x1="-2.54" y1="33.02" x2="-15.24" y2="33.02" width="0.1524" layer="91"/>
 <label x="-40.64" y="33.02" size="1.778" layer="95"/>
 <wire x1="-15.24" y1="33.02" x2="-43.18" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="10.16" x2="-15.24" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-7.62" x2="-15.24" y2="33.02" width="0.1524" layer="91"/>
 <junction x="-15.24" y="33.02"/>
+<pinref part="I2S" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="I2S_RX_WS" class="0">
 <segment>
-<pinref part="I2S" gate="G$1" pin="6"/>
 <pinref part="RX_WS" gate="G$1" pin="P$1"/>
 <wire x1="-2.54" y1="30.48" x2="-12.7" y2="30.48" width="0.1524" layer="91"/>
 <label x="-40.64" y="30.48" size="1.778" layer="95"/>
 <wire x1="-12.7" y1="30.48" x2="-43.18" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="10.16" x2="-12.7" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="30.48" width="0.1524" layer="91"/>
 <junction x="-12.7" y="30.48"/>
+<pinref part="I2S" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="I2S_TX_SCK" class="0">
 <segment>
-<pinref part="I2S" gate="G$1" pin="5"/>
 <pinref part="TX_SCK" gate="G$1" pin="P$1"/>
 <wire x1="-2.54" y1="27.94" x2="-10.16" y2="27.94" width="0.1524" layer="91"/>
 <label x="-40.64" y="27.94" size="1.778" layer="95"/>
 <wire x1="-10.16" y1="27.94" x2="-43.18" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="10.16" x2="-10.16" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="27.94" width="0.1524" layer="91"/>
 <junction x="-10.16" y="27.94"/>
+<pinref part="I2S" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="I2S_RX_SCK" class="0">
 <segment>
-<pinref part="I2S" gate="G$1" pin="4"/>
 <pinref part="RX_SCK" gate="G$1" pin="P$1"/>
 <wire x1="-2.54" y1="25.4" x2="-7.62" y2="25.4" width="0.1524" layer="91"/>
 <label x="-40.64" y="25.4" size="1.778" layer="95"/>
 <wire x1="-7.62" y1="25.4" x2="-43.18" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="10.16" x2="-7.62" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="25.4" width="0.1524" layer="91"/>
 <junction x="-7.62" y="25.4"/>
+<pinref part="I2S" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="I2S_RX_MCLK" class="0">
 <segment>
-<pinref part="I2S" gate="G$1" pin="3"/>
 <pinref part="MCLK" gate="G$1" pin="P$1"/>
-<wire x1="-2.54" y1="22.86" x2="-5.08" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="22.86" x2="-22.86" y2="22.86" width="0.1524" layer="91"/>
 <label x="-40.64" y="22.86" size="1.778" layer="95"/>
-<wire x1="-5.08" y1="22.86" x2="-43.18" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="10.16" x2="-5.08" y2="22.86" width="0.1524" layer="91"/>
-<junction x="-5.08" y="22.86"/>
+<wire x1="-22.86" y1="22.86" x2="-43.18" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="-7.62" x2="-22.86" y2="22.86" width="0.1524" layer="91"/>
+<junction x="-22.86" y="22.86"/>
+<pinref part="I2S" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="I2C0_SCL" class="0">
@@ -18914,18 +18936,18 @@ Only one star connection from PGND to GND below TPS2500.</text>
 </net>
 <net name="I2S_TX_MCLK" class="0">
 <segment>
-<pinref part="I2S" gate="G$1" pin="10"/>
-<wire x1="-43.18" y1="20.32" x2="-22.86" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="20.32" x2="-22.86" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="20.32" x2="-25.4" y2="20.32" width="0.1524" layer="91"/>
 <label x="-40.64" y="20.32" size="1.778" layer="95"/>
+<pinref part="I2S" gate="G$1" pin="10"/>
+<wire x1="-25.4" y1="20.32" x2="-25.4" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VD33" class="0">
 <segment>
 <pinref part="U$48" gate="G$1" pin="VD33"/>
+<wire x1="7.62" y1="15.24" x2="-2.54" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="I2S" gate="G$1" pin="1"/>
-<wire x1="7.62" y1="15.24" x2="0" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="0" y1="15.24" x2="0" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="15.24" x2="-2.54" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AUDIO_DIN" class="0">
@@ -18934,6 +18956,21 @@ Only one star connection from PGND to GND below TPS2500.</text>
 <wire x1="55.88" y1="38.1" x2="7.62" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="TX_SD" gate="G$1" pin="P$2"/>
 <label x="17.78" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="VOL/MICDET"/>
+<wire x1="40.64" y1="58.42" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="R21" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="63.5" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
+<junction x="40.64" y="63.5"/>
+<pinref part="C54" gate="G$1" pin="P$1"/>
+<wire x1="43.18" y1="66.04" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="66.04" x2="40.64" y2="63.5" width="0.1524" layer="91"/>
+<junction x="40.64" y="66.04"/>
+<pinref part="MIC" gate="G$1" pin="2"/>
+<wire x1="33.02" y1="66.04" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
