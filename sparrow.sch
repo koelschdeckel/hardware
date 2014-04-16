@@ -15033,9 +15033,9 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="R14" library="everykey" deviceset="R-EU_" device="0603" value="330"/>
 <part name="R15" library="everykey" deviceset="R-EU_" device="0603" value="330"/>
 <part name="U$20" library="everykey" deviceset="GND" device=""/>
-<part name="C24" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C25" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C26" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C24" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="10n"/>
+<part name="C25" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="10n"/>
+<part name="C26" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="10n"/>
 <part name="C27" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="1µ"/>
 <part name="C28" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="470p"/>
 <part name="R16" library="everykey" deviceset="R-EU_" device="0603" value="12K1"/>
@@ -17665,8 +17665,8 @@ Only one star connection from PGND to GND below TPS2500.</text>
 <instance part="C24" gate="G$1" x="111.76" y="40.64"/>
 <instance part="C25" gate="G$1" x="116.84" y="40.64"/>
 <instance part="C26" gate="G$1" x="101.6" y="38.1"/>
-<instance part="C27" gate="G$1" x="101.6" y="25.4"/>
-<instance part="C28" gate="G$1" x="106.68" y="25.4"/>
+<instance part="C27" gate="G$1" x="109.22" y="20.32"/>
+<instance part="C28" gate="G$1" x="104.14" y="20.32"/>
 <instance part="R16" gate="G$1" x="96.52" y="22.86" rot="R90"/>
 <instance part="C29" gate="G$1" x="106.68" y="38.1"/>
 <instance part="U$21" gate="G$1" x="170.18" y="40.64"/>
@@ -17714,17 +17714,15 @@ Only one star connection from PGND to GND below TPS2500.</text>
 <junction x="101.6" y="35.56"/>
 <pinref part="C28" gate="G$1" pin="P$2"/>
 <wire x1="116.84" y1="10.16" x2="116.84" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="22.86" x2="106.68" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="10.16" x2="116.84" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="17.78" x2="104.14" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="10.16" x2="109.22" y2="10.16" width="0.1524" layer="91"/>
 <junction x="116.84" y="10.16"/>
 <pinref part="C27" gate="G$1" pin="P$2"/>
-<wire x1="101.6" y1="22.86" x2="101.6" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="10.16" x2="106.68" y2="10.16" width="0.1524" layer="91"/>
-<junction x="106.68" y="10.16"/>
+<wire x1="109.22" y1="10.16" x2="116.84" y2="10.16" width="0.1524" layer="91"/>
+<junction x="104.14" y="10.16"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="17.78" x2="96.52" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="10.16" x2="101.6" y2="10.16" width="0.1524" layer="91"/>
-<junction x="101.6" y="10.16"/>
+<wire x1="96.52" y1="10.16" x2="104.14" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="C29" gate="G$1" pin="P$2"/>
 <junction x="106.68" y="35.56"/>
 <wire x1="101.6" y1="35.56" x2="93.98" y2="35.56" width="0.1524" layer="91"/>
@@ -17732,6 +17730,8 @@ Only one star connection from PGND to GND below TPS2500.</text>
 <junction x="116.84" y="35.56"/>
 <wire x1="111.76" y1="38.1" x2="111.76" y2="35.56" width="0.1524" layer="91"/>
 <junction x="111.76" y="35.56"/>
+<wire x1="109.22" y1="17.78" x2="109.22" y2="10.16" width="0.1524" layer="91"/>
+<junction x="109.22" y="10.16"/>
 </segment>
 <segment>
 <pinref part="C31" gate="G$1" pin="P$2"/>
@@ -17796,10 +17796,12 @@ Only one star connection from PGND to GND below TPS2500.</text>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VDDCR"/>
 <pinref part="C27" gate="G$1" pin="P$1"/>
-<wire x1="93.98" y1="30.48" x2="101.6" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="C28" gate="G$1" pin="P$1"/>
-<wire x1="101.6" y1="30.48" x2="106.68" y2="30.48" width="0.1524" layer="91"/>
-<junction x="101.6" y="30.48"/>
+<wire x1="93.98" y1="30.48" x2="104.14" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="30.48" x2="104.14" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="30.48" x2="109.22" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="30.48" x2="109.22" y2="25.4" width="0.1524" layer="91"/>
+<junction x="104.14" y="30.48"/>
 </segment>
 </net>
 <net name="ETH_REF_CLK_MAC" class="0">

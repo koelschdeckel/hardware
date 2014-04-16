@@ -3457,13 +3457,13 @@ design rules under a new name.</description>
 <element name="R15" library="everykey" package="0603" value="330" x="68" y="54.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="68.446" y="55.878" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C24" library="everykey" package="0603" value="100n" x="56.3" y="53.2" smashed="yes" rot="R180">
+<element name="C24" library="everykey" package="0603" value="10n" x="56.3" y="53.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="55.278" y="51.854" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C25" library="everykey" package="0603" value="100n" x="64.5" y="54.8" smashed="yes">
+<element name="C25" library="everykey" package="0603" value="10n" x="64.5" y="54.8" smashed="yes">
 <attribute name="NAME" x="63.322" y="55.246" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C26" library="everykey" package="0603" value="100n" x="61.4" y="47.6" smashed="yes" rot="R270">
+<element name="C26" library="everykey" package="0603" value="10n" x="61.4" y="47.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="62.822" y="46.246" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="C27" library="everykey" package="0603" value="1µ" x="57.1" y="47.6" smashed="yes" rot="R270">
@@ -8444,20 +8444,20 @@ design rules under a new name.</description>
 <approved hash="19,1,01eb1aba976181e4"/>
 <approved hash="19,1,5d4a44584214cf05"/>
 <approved hash="19,1,4c3bc2ddc89ed27b"/>
-<approved hash="19,1,6932c5db379bfb7e"/>
 <approved hash="19,1,744cbb514511ea00"/>
+<approved hash="19,1,6932c5db379bfb7e"/>
 <approved hash="19,1,6b56524be00e6d1f"/>
 <approved hash="19,1,ee2860c1de84e461"/>
-<approved hash="19,1,0a5949454b05f014"/>
 <approved hash="19,1,7326cbcec58f856a"/>
-<approved hash="19,1,781dfecbe4888e6d"/>
+<approved hash="19,1,0a5949454b05f014"/>
 <approved hash="19,1,015c687e7e02fb13"/>
+<approved hash="19,1,781dfecbe4888e6d"/>
 <approved hash="19,1,18657f78813b062a"/>
 <approved hash="19,1,851b01f2f3b19754"/>
-<approved hash="19,1,8a120cfbfab8805d"/>
 <approved hash="19,1,0f6c76718c320923"/>
-<approved hash="19,1,d2aacc41527ccc9b"/>
+<approved hash="19,1,8a120cfbfab8805d"/>
 <approved hash="19,1,482cd73b45065a1d"/>
+<approved hash="19,1,d2aacc41527ccc9b"/>
 <approved hash="19,1,ac2b2b3cd97c3e67"/>
 <approved hash="19,1,b6ad5046ae0628e1"/>
 </errors>
