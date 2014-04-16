@@ -14963,9 +14963,9 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="supply2000" width="0.2" drill="0.6">
+<class number="1" name="supply2000" width="0.2" drill="0.3">
 </class>
-<class number="2" name="supply500" width="0.2" drill="0.6">
+<class number="2" name="supply500" width="0.2" drill="0.3">
 </class>
 </classes>
 <parts>
@@ -15223,6 +15223,10 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="U$19" library="everykey" deviceset="GND" device=""/>
 <part name="I2S" library="everykey" deviceset="HEADER-2X5" device="SMD-1.27MM"/>
 <part name="HEADPHONE" library="everykey" deviceset="AUDIOJACK-STEREO-3P" device="CUI_SJ_3523"/>
+<part name="R46" library="everykey" deviceset="R-EU_" device="0603" value="768K"/>
+<part name="R47" library="everykey" deviceset="R-EU_" device="0603" value="768K"/>
+<part name="C70" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="BATSNS" library="everykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
 </parts>
 <sheets>
 <sheet>
@@ -16903,6 +16907,10 @@ Only one star connection from PGND to GND below TPS2500.</text>
 <instance part="5VDC_IN" gate="G$1" x="149.86" y="154.94"/>
 <instance part="U$29" gate="G$1" x="160.02" y="149.86"/>
 <instance part="BATT" gate="G$1" x="210.82" y="157.48"/>
+<instance part="R46" gate="G$1" x="-88.9" y="142.24" rot="R90"/>
+<instance part="R47" gate="G$1" x="-88.9" y="129.54" rot="R90"/>
+<instance part="C70" gate="G$1" x="-96.52" y="127"/>
+<instance part="BATSNS" gate="G$1" x="-104.14" y="134.62"/>
 </instances>
 <busses>
 <bus name="PWRCTL:ETH_PWR,WIFI_PWR,AUDIO_PWR,PORT_PWR_5V">
@@ -16946,6 +16954,8 @@ Only one star connection from PGND to GND below TPS2500.</text>
 <junction x="-63.5" y="147.32"/>
 <wire x1="-48.26" y1="137.16" x2="-48.26" y2="147.32" width="0.1524" layer="91"/>
 <junction x="-48.26" y="147.32"/>
+<pinref part="R46" gate="G$1" pin="2"/>
+<wire x1="-63.5" y1="147.32" x2="-88.9" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -17102,6 +17112,13 @@ Only one star connection from PGND to GND below TPS2500.</text>
 <junction x="-40.64" y="124.46"/>
 <junction x="0" y="124.46"/>
 <wire x1="0" y1="124.46" x2="12.7" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="R47" gate="G$1" pin="1"/>
+<wire x1="-88.9" y1="124.46" x2="-88.9" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="-88.9" y1="121.92" x2="-83.82" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="C70" gate="G$1" pin="P$2"/>
+<wire x1="-88.9" y1="121.92" x2="-96.52" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="121.92" x2="-96.52" y2="124.46" width="0.1524" layer="91"/>
+<junction x="-88.9" y="121.92"/>
 </segment>
 <segment>
 <pinref part="R36" gate="G$1" pin="1"/>
@@ -17494,6 +17511,28 @@ Only one star connection from PGND to GND below TPS2500.</text>
 <pinref part="IC8" gate="G$1" pin="ON_!OFF"/>
 <wire x1="154.94" y1="-5.08" x2="119.38" y2="-5.08" width="0.1524" layer="91"/>
 <label x="121.92" y="-5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VBAT_SENSE" class="0">
+<segment>
+<pinref part="R46" gate="G$1" pin="1"/>
+<pinref part="R47" gate="G$1" pin="2"/>
+<wire x1="-88.9" y1="137.16" x2="-88.9" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="C70" gate="G$1" pin="P$1"/>
+<wire x1="-88.9" y1="134.62" x2="-96.52" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="134.62" x2="-96.52" y2="132.08" width="0.1524" layer="91"/>
+<junction x="-88.9" y="134.62"/>
+<wire x1="-96.52" y1="134.62" x2="-99.06" y2="134.62" width="0.1524" layer="91"/>
+<junction x="-96.52" y="134.62"/>
+<label x="-96.52" y="134.62" size="1.778" layer="95"/>
+<pinref part="BATSNS" gate="G$1" pin="P$2"/>
+</segment>
+</net>
+<net name="ADC6" class="0">
+<segment>
+<pinref part="BATSNS" gate="G$1" pin="P$1"/>
+<wire x1="-109.22" y1="134.62" x2="-121.92" y2="134.62" width="0.1524" layer="91"/>
+<label x="-121.92" y="134.62" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
