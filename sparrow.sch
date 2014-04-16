@@ -19813,6 +19813,12 @@ Only one star connection from PGND to GND below TPS2500.</text>
 <approved hash="104,9,111.76,7.62,BAL1,DC,BT_VDD_PA,,,"/>
 <approved hash="104,2,210.82,162.56,BATT,+,VBAT,,,"/>
 <approved hash="104,2,210.82,149.86,BATT,-,GND,,,"/>
+<approved hash="208,2,180.34,71.12,VETH33,out,,,,"/>
+<approved hash="208,4,170.18,86.36,VETH33,sup,,,,"/>
+<approved hash="208,4,116.84,45.72,VETH33,sup,,,,"/>
+<approved hash="208,4,99.06,104.14,VETH33,sup,,,,"/>
+<approved hash="208,4,185.42,33.02,VETH33,sup,,,,"/>
+<approved hash="208,4,40.64,104.14,VETH33,sup,,,,"/>
 </errors>
 </schematic>
 </drawing>
