@@ -97,7 +97,7 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="anykey">
+<library name="everykey">
 <description>Meine Komponenten - alles Zeug, was ich benutze, kommt hier rein. Und wird geändert, sodass alles konsistent ist und funktioniert.</description>
 <packages>
 <package name="0805">
@@ -14969,260 +14969,260 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 </class>
 </classes>
 <parts>
-<part name="PWR1" library="anykey" deviceset="LTC4080" device="DFN"/>
-<part name="C8" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="4µ7"/>
-<part name="C9" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="4µ7"/>
-<part name="C10" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="4µ7"/>
-<part name="C11" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="10p"/>
-<part name="L1" library="anykey" deviceset="INDUCTOR" device="40X40MM" value="10µ"/>
-<part name="R1" library="anykey" deviceset="R-EU_" device="0603" value="768k"/>
-<part name="R2" library="anykey" deviceset="R-EU_" device="0603" value="2M4"/>
-<part name="R3" library="anykey" deviceset="R-EU_" device="0603" value="806"/>
-<part name="R4" library="anykey" deviceset="R-EU_" device="0603" value="806"/>
-<part name="LED1" library="anykey" deviceset="LED" device="0603" value="CHARGE"/>
-<part name="U$3" library="anykey" deviceset="GND" device=""/>
-<part name="U$4" library="anykey" deviceset="VD33" device=""/>
-<part name="U$9" library="anykey" deviceset="VBAT" device=""/>
-<part name="U$13" library="anykey" deviceset="VBAT" device=""/>
-<part name="U$15" library="anykey" deviceset="GND" device=""/>
-<part name="USB0" library="anykey" deviceset="USB_MICRO" device="SMD"/>
-<part name="U$5" library="anykey" deviceset="GND" device=""/>
-<part name="MCU" library="anykey" deviceset="LPC1837JBD144" device="" value="LPC1837"/>
-<part name="X2" library="anykey" deviceset="CRYSTAL_WITH_GROUND" device="ABM8G" value="12MHz"/>
-<part name="C65" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="18p"/>
-<part name="C2" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="18p"/>
-<part name="U$7" library="anykey" deviceset="GND" device=""/>
-<part name="U$8" library="anykey" deviceset="GND" device=""/>
-<part name="U$10" library="anykey" deviceset="VD33" device=""/>
-<part name="C3" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C4" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C5" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C6" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C7" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C12" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C13" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C14" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C15" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C16" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C17" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C18" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C19" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C20" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="U$12" library="anykey" deviceset="GND" device=""/>
-<part name="R5" library="anykey" deviceset="R-EU_" device="0603" value="33"/>
-<part name="R6" library="anykey" deviceset="R-EU_" device="0603" value="33"/>
-<part name="USB1" library="anykey" deviceset="USB_MICRO" device="SMD"/>
-<part name="C21" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="U$2" library="anykey" deviceset="GND" device=""/>
-<part name="U$14" library="anykey" deviceset="VD33" device=""/>
-<part name="R7" library="anykey" deviceset="R-EU_" device="0603" value="12K"/>
-<part name="R8" library="anykey" deviceset="R-EU_" device="0603" value="12K"/>
-<part name="R9" library="anykey" deviceset="R-EU_" device="0603" value="12K"/>
-<part name="U$17" library="anykey" deviceset="VD33" device=""/>
-<part name="RESET" library="anykey" deviceset="PUSHBUTTON" device="KMR2XX"/>
-<part name="LPC_DEBUG" library="anykey" deviceset="HEADER-2X5" device="SMD-1.27MM" value="DEBUG"/>
-<part name="R10" library="anykey" deviceset="R-EU_" device="0603" value="12K"/>
-<part name="R11" library="anykey" deviceset="R-EU_" device="0603" value="12K"/>
-<part name="R12" library="anykey" deviceset="R-EU_" device="0603" value="12K"/>
-<part name="R13" library="anykey" deviceset="R-EU_" device="0603" value="12K"/>
-<part name="X1" library="anykey" deviceset="CRYSTAL" device="1206" value="ABS07-32768"/>
-<part name="C22" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="18p"/>
-<part name="C23" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="18p"/>
-<part name="IC1" library="anykey" deviceset="LAN8720A" device="VIAS" value="LAN8720AVIAS"/>
-<part name="U$18" library="anykey" deviceset="GND" device=""/>
-<part name="R14" library="anykey" deviceset="R-EU_" device="0603" value="330"/>
-<part name="R15" library="anykey" deviceset="R-EU_" device="0603" value="330"/>
-<part name="U$20" library="anykey" deviceset="GND" device=""/>
-<part name="C24" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C25" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C26" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C27" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="1µ"/>
-<part name="C28" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="470p"/>
-<part name="R16" library="anykey" deviceset="R-EU_" device="0603" value="12K1"/>
-<part name="C29" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="10µ"/>
-<part name="U$21" library="anykey" deviceset="GND" device=""/>
-<part name="C31" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="R17" library="anykey" deviceset="R-EU_" device="0603" value="49R9"/>
-<part name="R18" library="anykey" deviceset="R-EU_" device="0603" value="49R9"/>
-<part name="R19" library="anykey" deviceset="R-EU_" device="0603" value="49R9"/>
-<part name="R20" library="anykey" deviceset="R-EU_" device="0603" value="49R9"/>
-<part name="C32" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C33" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="U$24" library="anykey" deviceset="VD33" device=""/>
-<part name="U$22" library="anykey" deviceset="VETH33" device=""/>
-<part name="U$25" library="anykey" deviceset="VETH33" device=""/>
-<part name="X4" library="anykey" deviceset="OSCILLATOR" device="25X20" value="50MHZ"/>
-<part name="U$27" library="anykey" deviceset="GND" device=""/>
-<part name="C34" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="U$23" library="anykey" deviceset="VETH33" device=""/>
-<part name="IC2" library="anykey" deviceset="TLV320AIC3100" device="VIAS" value="TLV320AIC3100VIAS"/>
-<part name="U$31" library="anykey" deviceset="GND" device=""/>
-<part name="U$33" library="anykey" deviceset="GND" device=""/>
-<part name="C38" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C39" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C40" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="22µ"/>
-<part name="C41" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="22µ"/>
-<part name="C42" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="10µ"/>
-<part name="C43" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C44" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="10µ"/>
-<part name="C45" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C46" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="10µ"/>
-<part name="C47" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C48" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="10µ"/>
-<part name="C49" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="LS" library="anykey" deviceset="HEADER-1X2" device="ROUND" value="LS"/>
-<part name="HP" library="anykey" deviceset="HEADER-1X3" device="ROUND" value="HP"/>
-<part name="C50" library="anykey" deviceset="CAP_CERAMIC" device="0805" value="47µ"/>
-<part name="C51" library="anykey" deviceset="CAP_CERAMIC" device="0805" value="47µ"/>
-<part name="C52" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="1µ"/>
-<part name="C53" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="1µ"/>
-<part name="C54" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="R21" library="anykey" deviceset="R-EU_" device="0603" value="2K2"/>
-<part name="MIC" library="anykey" deviceset="HEADER-1X2" device="ROUND" value="MIC"/>
-<part name="LINE" library="anykey" deviceset="HEADER-1X3" device="ROUND" value="LINE"/>
-<part name="U$40" library="anykey" deviceset="GND" device=""/>
-<part name="WIFI" library="anykey" deviceset="CC3000" device="EXTENDED"/>
-<part name="ANT1" library="anykey" deviceset="ANTENNA_MONOPOLE" device="1206" value="2.4GHz 50Ω"/>
-<part name="U$42" library="anykey" deviceset="GND" device=""/>
-<part name="L5" library="anykey" deviceset="INDUCTOR" device="0402" value="2n2"/>
-<part name="L6" library="anykey" deviceset="INDUCTOR" device="0402" value="DNP"/>
-<part name="C55" library="anykey" deviceset="CAP_CERAMIC" device="0402" value="2p2"/>
-<part name="U$43" library="anykey" deviceset="GND" device=""/>
-<part name="SCL" library="anykey" deviceset="JUMPER" device="SOLDER_CLOSED" value=""/>
-<part name="SDA" library="anykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
-<part name="U$46" library="anykey" deviceset="VETH33" device=""/>
-<part name="R22" library="anykey" deviceset="R-EU_" device="0603" value="2K2"/>
-<part name="R23" library="anykey" deviceset="R-EU_" device="0603" value="2K2"/>
-<part name="U$47" library="anykey" deviceset="VD33" device=""/>
-<part name="TX_SD" library="anykey" deviceset="JUMPER" device="SOLDER_CLOSED" value="JUMPERSOLDER_CLOSED"/>
-<part name="RX_SD" library="anykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
-<part name="TX_WS" library="anykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
-<part name="RX_WS" library="anykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
-<part name="TX_SCK" library="anykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
-<part name="RX_SCK" library="anykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
-<part name="MCLK" library="anykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
-<part name="U$48" library="anykey" deviceset="VD33" device=""/>
-<part name="U$49" library="anykey" deviceset="GND" device=""/>
-<part name="SD_CARD" library="anykey" deviceset="SD_CARD" device="EXTENDED"/>
-<part name="U$57" library="anykey" deviceset="GND" device=""/>
-<part name="R24" library="anykey" deviceset="R-EU_" device="0603" value="100K"/>
-<part name="R25" library="anykey" deviceset="R-EU_" device="0603" value="100K"/>
-<part name="C56" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="1µ"/>
-<part name="U$58" library="anykey" deviceset="VD33" device=""/>
-<part name="I2C0" library="anykey" deviceset="HEADER-1X5" device="ROUND" value="I2C0"/>
-<part name="I2C1" library="anykey" deviceset="HEADER-1X5" device="ROUND" value="I2C1"/>
-<part name="U$59" library="anykey" deviceset="GND" device=""/>
-<part name="U$60" library="anykey" deviceset="VD33" device=""/>
-<part name="A_SDA" library="anykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
-<part name="A_SCL" library="anykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
-<part name="IC3" library="anykey" deviceset="TPS2500" device="SON10" value="TPS2500"/>
-<part name="U$64" library="anykey" deviceset="GND" device=""/>
-<part name="U$65" library="anykey" deviceset="VBAT" device=""/>
-<part name="C57" library="anykey" deviceset="CAP_CERAMIC" device="0805" value="22µ 10V"/>
-<part name="R26" library="anykey" deviceset="R-EU_" device="0603" value="40K2"/>
-<part name="U$63" library="anykey" deviceset="VD33" device=""/>
-<part name="R27" library="anykey" deviceset="R-EU_" device="0603" value="100K"/>
-<part name="R28" library="anykey" deviceset="R-EU_" device="0603" value="100K"/>
-<part name="R29" library="anykey" deviceset="R-EU_" device="0603" value="100K"/>
-<part name="R30" library="anykey" deviceset="R-EU_" device="0603" value="10K"/>
-<part name="R31" library="anykey" deviceset="R-EU_" device="0603" value="100K"/>
-<part name="R32" library="anykey" deviceset="R-EU_" device="0603" value="10K"/>
-<part name="R33" library="anykey" deviceset="R-EU_" device="0603" value="100K"/>
-<part name="L7" library="anykey" deviceset="INDUCTOR" device="40X40MM" value="2µ2"/>
-<part name="C58" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C59" library="anykey" deviceset="CAP_CERAMIC" device="0805" value="22µ 10V"/>
-<part name="C60" library="anykey" deviceset="CPOL-EU" device="1210" value="150µ 10V"/>
-<part name="MCU1" library="anykey" deviceset="NRF51822" device="QFN48"/>
-<part name="C61" library="anykey" deviceset="CAP_CERAMIC" device="0402" value="47n"/>
-<part name="C62" library="anykey" deviceset="CAP_CERAMIC" device="0402" value="100n"/>
-<part name="C63" library="anykey" deviceset="CAP_CERAMIC" device="0402" value="100n"/>
-<part name="C64" library="anykey" deviceset="CAP_CERAMIC" device="0402" value="100n"/>
-<part name="C1" library="anykey" deviceset="CAP_CERAMIC" device="0402" value="1n"/>
-<part name="U$67" library="anykey" deviceset="GND" device=""/>
-<part name="NRF_DEBUG" library="anykey" deviceset="HEADER-2X5" device="SMD-1.27MM"/>
-<part name="R34" library="anykey" deviceset="R-EU_" device="0603" value="100K"/>
-<part name="U$69" library="anykey" deviceset="GND" device=""/>
-<part name="U$70" library="anykey" deviceset="VD33" device=""/>
-<part name="U$71" library="anykey" deviceset="VD33" device=""/>
-<part name="X5" library="anykey" deviceset="CRYSTAL_WITH_GROUND" device="25X20" value="16MHz"/>
-<part name="C66" library="anykey" deviceset="CAP_CERAMIC" device="0402" value="12p"/>
-<part name="C67" library="anykey" deviceset="CAP_CERAMIC" device="0402" value="12p"/>
-<part name="U$72" library="anykey" deviceset="GND" device=""/>
-<part name="X3" library="anykey" deviceset="CRYSTAL" device="1206" value="32768"/>
-<part name="C68" library="anykey" deviceset="CAP_CERAMIC" device="0402" value="9p"/>
-<part name="C69" library="anykey" deviceset="CAP_CERAMIC" device="0402" value="9p"/>
-<part name="U$73" library="anykey" deviceset="GND" device=""/>
-<part name="C72" library="anykey" deviceset="CAP_CERAMIC" device="0402" value="2n2"/>
-<part name="ANT2" library="anykey" deviceset="ANTENNA_MONOPOLE" device="1206" value="2.4GHz 50Ω"/>
-<part name="U$74" library="anykey" deviceset="GND" device=""/>
-<part name="D1" library="anykey" deviceset="DIODE" device="SOD123FL" value="MBR230LSFT1"/>
-<part name="D2" library="anykey" deviceset="DIODE" device="SOD123FL" value="MBR230LSFT1"/>
-<part name="D3" library="anykey" deviceset="DIODE" device="SOD123FL" value="MBR230LSFT1"/>
-<part name="D4" library="anykey" deviceset="DIODE" device="SOD123FL" value="MBR230LSFT1"/>
-<part name="D5" library="anykey" deviceset="DIODE" device="SOD123FL" value="MBR230LSFT1"/>
-<part name="LIM" library="anykey" deviceset="JUMPER" device="SOLDER_OPEN" value="JUMPERSOLDER_OPEN"/>
-<part name="R35" library="anykey" deviceset="R-EU_" device="0603" value="100K"/>
-<part name="R36" library="anykey" deviceset="R-EU_" device="0603" value="100K"/>
-<part name="U$1" library="anykey" deviceset="GND" device=""/>
-<part name="ETH" library="anykey" deviceset="ETHERNET_JACK_LEDS" device="RB1-125BAG1A"/>
-<part name="U$11" library="anykey" deviceset="GND" device=""/>
-<part name="U$16" library="anykey" deviceset="VD33" device=""/>
-<part name="!PGM" library="anykey" deviceset="PUSHBUTTON" device="KMR2XX"/>
-<part name="R37" library="anykey" deviceset="R-EU_" device="0603" value="100K"/>
-<part name="R38" library="anykey" deviceset="R-EU_" device="0603" value="2K2"/>
-<part name="R39" library="anykey" deviceset="R-EU_" device="0603" value="2K2"/>
-<part name="IC4" library="anykey" deviceset="SKYWORKS_AAT4280A" device="SC70JW-8-NOTHERMALS"/>
-<part name="IC5" library="anykey" deviceset="SKYWORKS_AAT4280A" device="SC70JW-8-NOTHERMALS"/>
-<part name="IC6" library="anykey" deviceset="SKYWORKS_AAT4280A" device="SC70JW-8-NOTHERMALS"/>
-<part name="IC7" library="anykey" deviceset="SKYWORKS_AAT4280A" device="SC70JW-8-NOTHERMALS"/>
-<part name="IC8" library="anykey" deviceset="SKYWORKS_AAT4280A" device="SC70JW-8-NOTHERMALS"/>
-<part name="C30" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="WL_EN" library="anykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
-<part name="CC_DEBUG" library="anykey" deviceset="HEADER-2X5" device="SMD-1.27MM"/>
-<part name="U$28" library="anykey" deviceset="GND" device=""/>
-<part name="C35" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C36" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C37" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C74" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C75" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C76" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="1µ"/>
-<part name="C77" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="1µ"/>
-<part name="C78" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="1µ"/>
-<part name="C79" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="1µ"/>
-<part name="C80" library="anykey" deviceset="CAP_CERAMIC" device="0603" value="1µ"/>
-<part name="5VDC_IN" library="anykey" deviceset="JACK-PLUG" device="CUI_PJ102BH" value="2A max"/>
-<part name="U$29" library="anykey" deviceset="GND" device=""/>
-<part name="IC9" library="anykey" deviceset="FXMA108" device="20-DFN"/>
-<part name="U$30" library="anykey" deviceset="VD33" device=""/>
-<part name="U$32" library="anykey" deviceset="GND" device=""/>
-<part name="UART_5V" library="anykey" deviceset="HEADER-1X5" device="ROUND" value="UART_5V"/>
-<part name="GPIO_5V" library="anykey" deviceset="HEADER-1X7" device="ROUND"/>
-<part name="SPI0" library="anykey" deviceset="HEADER-1X7" device="ROUND"/>
-<part name="U$34" library="anykey" deviceset="GND" device=""/>
-<part name="U$35" library="anykey" deviceset="VD33" device=""/>
-<part name="UART2" library="anykey" deviceset="HEADER-1X6" device="ROUND" value="UART2"/>
-<part name="UART3" library="anykey" deviceset="HEADER-1X7" device="ROUND"/>
-<part name="U$36" library="anykey" deviceset="GND" device=""/>
-<part name="U$37" library="anykey" deviceset="VD33" device=""/>
-<part name="ADC" library="anykey" deviceset="HEADER-1X7" device="ROUND"/>
-<part name="LOGO2" library="anykey" deviceset="LOGO" device="KRONE"/>
-<part name="LOGO3" library="anykey" deviceset="LOGO" device="KRONE"/>
-<part name="LOGO4" library="anykey" deviceset="LOGO" device="KRONE"/>
-<part name="R40" library="anykey" deviceset="R-EU_" device="0603" value="33"/>
-<part name="R41" library="anykey" deviceset="R-EU_" device="0603" value="33"/>
-<part name="R42" library="anykey" deviceset="R-EU_" device="0603" value="10K"/>
-<part name="U$6" library="anykey" deviceset="VETH33" device=""/>
-<part name="BAL1" library="anykey" deviceset="BALUN" device="WLCSP"/>
-<part name="BATT" library="anykey" deviceset="BATTERY_WITH_HOLDER" device=""/>
-<part name="R43" library="anykey" deviceset="R-EU_" device="0603" value="806"/>
-<part name="R44" library="anykey" deviceset="R-EU_" device="0603" value="806"/>
-<part name="R45" library="anykey" deviceset="R-EU_" device="0603" value="806"/>
-<part name="LED2" library="anykey" deviceset="LED" device="0603"/>
-<part name="LED3" library="anykey" deviceset="LED" device="0603"/>
-<part name="LED4" library="anykey" deviceset="LED" device="0603"/>
-<part name="U$19" library="anykey" deviceset="GND" device=""/>
-<part name="I2S" library="anykey" deviceset="HEADER-2X5" device="SMD-1.27MM"/>
-<part name="HEADPHONE" library="anykey" deviceset="AUDIOJACK-STEREO-3P" device="CUI_SJ_3523"/>
+<part name="PWR1" library="everykey" deviceset="LTC4080" device="DFN"/>
+<part name="C8" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="4µ7"/>
+<part name="C9" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="4µ7"/>
+<part name="C10" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="4µ7"/>
+<part name="C11" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="10p"/>
+<part name="L1" library="everykey" deviceset="INDUCTOR" device="40X40MM" value="10µ"/>
+<part name="R1" library="everykey" deviceset="R-EU_" device="0603" value="768k"/>
+<part name="R2" library="everykey" deviceset="R-EU_" device="0603" value="2M4"/>
+<part name="R3" library="everykey" deviceset="R-EU_" device="0603" value="806"/>
+<part name="R4" library="everykey" deviceset="R-EU_" device="0603" value="806"/>
+<part name="LED1" library="everykey" deviceset="LED" device="0603" value="CHARGE"/>
+<part name="U$3" library="everykey" deviceset="GND" device=""/>
+<part name="U$4" library="everykey" deviceset="VD33" device=""/>
+<part name="U$9" library="everykey" deviceset="VBAT" device=""/>
+<part name="U$13" library="everykey" deviceset="VBAT" device=""/>
+<part name="U$15" library="everykey" deviceset="GND" device=""/>
+<part name="USB0" library="everykey" deviceset="USB_MICRO" device="SMD"/>
+<part name="U$5" library="everykey" deviceset="GND" device=""/>
+<part name="MCU" library="everykey" deviceset="LPC1837JBD144" device="" value="LPC1837"/>
+<part name="X2" library="everykey" deviceset="CRYSTAL_WITH_GROUND" device="ABM8G" value="12MHz"/>
+<part name="C65" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="18p"/>
+<part name="C2" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="18p"/>
+<part name="U$7" library="everykey" deviceset="GND" device=""/>
+<part name="U$8" library="everykey" deviceset="GND" device=""/>
+<part name="U$10" library="everykey" deviceset="VD33" device=""/>
+<part name="C3" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C4" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C5" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C6" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C7" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C12" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C13" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C14" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C15" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C16" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C17" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C18" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C19" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C20" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="U$12" library="everykey" deviceset="GND" device=""/>
+<part name="R5" library="everykey" deviceset="R-EU_" device="0603" value="33"/>
+<part name="R6" library="everykey" deviceset="R-EU_" device="0603" value="33"/>
+<part name="USB1" library="everykey" deviceset="USB_MICRO" device="SMD"/>
+<part name="C21" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="U$2" library="everykey" deviceset="GND" device=""/>
+<part name="U$14" library="everykey" deviceset="VD33" device=""/>
+<part name="R7" library="everykey" deviceset="R-EU_" device="0603" value="12K"/>
+<part name="R8" library="everykey" deviceset="R-EU_" device="0603" value="12K"/>
+<part name="R9" library="everykey" deviceset="R-EU_" device="0603" value="12K"/>
+<part name="U$17" library="everykey" deviceset="VD33" device=""/>
+<part name="RESET" library="everykey" deviceset="PUSHBUTTON" device="KMR2XX"/>
+<part name="LPC_DEBUG" library="everykey" deviceset="HEADER-2X5" device="SMD-1.27MM" value="DEBUG"/>
+<part name="R10" library="everykey" deviceset="R-EU_" device="0603" value="12K"/>
+<part name="R11" library="everykey" deviceset="R-EU_" device="0603" value="12K"/>
+<part name="R12" library="everykey" deviceset="R-EU_" device="0603" value="12K"/>
+<part name="R13" library="everykey" deviceset="R-EU_" device="0603" value="12K"/>
+<part name="X1" library="everykey" deviceset="CRYSTAL" device="1206" value="ABS07-32768"/>
+<part name="C22" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="18p"/>
+<part name="C23" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="18p"/>
+<part name="IC1" library="everykey" deviceset="LAN8720A" device="VIAS" value="LAN8720AVIAS"/>
+<part name="U$18" library="everykey" deviceset="GND" device=""/>
+<part name="R14" library="everykey" deviceset="R-EU_" device="0603" value="330"/>
+<part name="R15" library="everykey" deviceset="R-EU_" device="0603" value="330"/>
+<part name="U$20" library="everykey" deviceset="GND" device=""/>
+<part name="C24" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C25" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C26" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C27" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="1µ"/>
+<part name="C28" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="470p"/>
+<part name="R16" library="everykey" deviceset="R-EU_" device="0603" value="12K1"/>
+<part name="C29" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="10µ"/>
+<part name="U$21" library="everykey" deviceset="GND" device=""/>
+<part name="C31" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="R17" library="everykey" deviceset="R-EU_" device="0603" value="49R9"/>
+<part name="R18" library="everykey" deviceset="R-EU_" device="0603" value="49R9"/>
+<part name="R19" library="everykey" deviceset="R-EU_" device="0603" value="49R9"/>
+<part name="R20" library="everykey" deviceset="R-EU_" device="0603" value="49R9"/>
+<part name="C32" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C33" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="U$24" library="everykey" deviceset="VD33" device=""/>
+<part name="U$22" library="everykey" deviceset="VETH33" device=""/>
+<part name="U$25" library="everykey" deviceset="VETH33" device=""/>
+<part name="X4" library="everykey" deviceset="OSCILLATOR" device="25X20" value="50MHZ"/>
+<part name="U$27" library="everykey" deviceset="GND" device=""/>
+<part name="C34" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="U$23" library="everykey" deviceset="VETH33" device=""/>
+<part name="IC2" library="everykey" deviceset="TLV320AIC3100" device="VIAS" value="TLV320AIC3100VIAS"/>
+<part name="U$31" library="everykey" deviceset="GND" device=""/>
+<part name="U$33" library="everykey" deviceset="GND" device=""/>
+<part name="C38" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C39" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C40" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="22µ"/>
+<part name="C41" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="22µ"/>
+<part name="C42" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="10µ"/>
+<part name="C43" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C44" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="10µ"/>
+<part name="C45" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C46" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="10µ"/>
+<part name="C47" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C48" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="10µ"/>
+<part name="C49" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="LS" library="everykey" deviceset="HEADER-1X2" device="ROUND" value="LS"/>
+<part name="HP" library="everykey" deviceset="HEADER-1X3" device="ROUND" value="HP"/>
+<part name="C50" library="everykey" deviceset="CAP_CERAMIC" device="0805" value="47µ"/>
+<part name="C51" library="everykey" deviceset="CAP_CERAMIC" device="0805" value="47µ"/>
+<part name="C52" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="1µ"/>
+<part name="C53" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="1µ"/>
+<part name="C54" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="R21" library="everykey" deviceset="R-EU_" device="0603" value="2K2"/>
+<part name="MIC" library="everykey" deviceset="HEADER-1X2" device="ROUND" value="MIC"/>
+<part name="LINE" library="everykey" deviceset="HEADER-1X3" device="ROUND" value="LINE"/>
+<part name="U$40" library="everykey" deviceset="GND" device=""/>
+<part name="WIFI" library="everykey" deviceset="CC3000" device="EXTENDED"/>
+<part name="ANT1" library="everykey" deviceset="ANTENNA_MONOPOLE" device="1206" value="2.4GHz 50Ω"/>
+<part name="U$42" library="everykey" deviceset="GND" device=""/>
+<part name="L5" library="everykey" deviceset="INDUCTOR" device="0402" value="2n2"/>
+<part name="L6" library="everykey" deviceset="INDUCTOR" device="0402" value="DNP"/>
+<part name="C55" library="everykey" deviceset="CAP_CERAMIC" device="0402" value="2p2"/>
+<part name="U$43" library="everykey" deviceset="GND" device=""/>
+<part name="SCL" library="everykey" deviceset="JUMPER" device="SOLDER_CLOSED" value=""/>
+<part name="SDA" library="everykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
+<part name="U$46" library="everykey" deviceset="VETH33" device=""/>
+<part name="R22" library="everykey" deviceset="R-EU_" device="0603" value="2K2"/>
+<part name="R23" library="everykey" deviceset="R-EU_" device="0603" value="2K2"/>
+<part name="U$47" library="everykey" deviceset="VD33" device=""/>
+<part name="TX_SD" library="everykey" deviceset="JUMPER" device="SOLDER_CLOSED" value="JUMPERSOLDER_CLOSED"/>
+<part name="RX_SD" library="everykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
+<part name="TX_WS" library="everykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
+<part name="RX_WS" library="everykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
+<part name="TX_SCK" library="everykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
+<part name="RX_SCK" library="everykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
+<part name="MCLK" library="everykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
+<part name="U$48" library="everykey" deviceset="VD33" device=""/>
+<part name="U$49" library="everykey" deviceset="GND" device=""/>
+<part name="SD_CARD" library="everykey" deviceset="SD_CARD" device="EXTENDED"/>
+<part name="U$57" library="everykey" deviceset="GND" device=""/>
+<part name="R24" library="everykey" deviceset="R-EU_" device="0603" value="100K"/>
+<part name="R25" library="everykey" deviceset="R-EU_" device="0603" value="100K"/>
+<part name="C56" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="1µ"/>
+<part name="U$58" library="everykey" deviceset="VD33" device=""/>
+<part name="I2C0" library="everykey" deviceset="HEADER-1X5" device="ROUND" value="I2C0"/>
+<part name="I2C1" library="everykey" deviceset="HEADER-1X5" device="ROUND" value="I2C1"/>
+<part name="U$59" library="everykey" deviceset="GND" device=""/>
+<part name="U$60" library="everykey" deviceset="VD33" device=""/>
+<part name="A_SDA" library="everykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
+<part name="A_SCL" library="everykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
+<part name="IC3" library="everykey" deviceset="TPS2500" device="SON10" value="TPS2500"/>
+<part name="U$64" library="everykey" deviceset="GND" device=""/>
+<part name="U$65" library="everykey" deviceset="VBAT" device=""/>
+<part name="C57" library="everykey" deviceset="CAP_CERAMIC" device="0805" value="22µ 10V"/>
+<part name="R26" library="everykey" deviceset="R-EU_" device="0603" value="40K2"/>
+<part name="U$63" library="everykey" deviceset="VD33" device=""/>
+<part name="R27" library="everykey" deviceset="R-EU_" device="0603" value="100K"/>
+<part name="R28" library="everykey" deviceset="R-EU_" device="0603" value="100K"/>
+<part name="R29" library="everykey" deviceset="R-EU_" device="0603" value="100K"/>
+<part name="R30" library="everykey" deviceset="R-EU_" device="0603" value="10K"/>
+<part name="R31" library="everykey" deviceset="R-EU_" device="0603" value="100K"/>
+<part name="R32" library="everykey" deviceset="R-EU_" device="0603" value="10K"/>
+<part name="R33" library="everykey" deviceset="R-EU_" device="0603" value="100K"/>
+<part name="L7" library="everykey" deviceset="INDUCTOR" device="40X40MM" value="2µ2"/>
+<part name="C58" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C59" library="everykey" deviceset="CAP_CERAMIC" device="0805" value="22µ 10V"/>
+<part name="C60" library="everykey" deviceset="CPOL-EU" device="1210" value="150µ 10V"/>
+<part name="MCU1" library="everykey" deviceset="NRF51822" device="QFN48"/>
+<part name="C61" library="everykey" deviceset="CAP_CERAMIC" device="0402" value="47n"/>
+<part name="C62" library="everykey" deviceset="CAP_CERAMIC" device="0402" value="100n"/>
+<part name="C63" library="everykey" deviceset="CAP_CERAMIC" device="0402" value="100n"/>
+<part name="C64" library="everykey" deviceset="CAP_CERAMIC" device="0402" value="100n"/>
+<part name="C1" library="everykey" deviceset="CAP_CERAMIC" device="0402" value="1n"/>
+<part name="U$67" library="everykey" deviceset="GND" device=""/>
+<part name="NRF_DEBUG" library="everykey" deviceset="HEADER-2X5" device="SMD-1.27MM"/>
+<part name="R34" library="everykey" deviceset="R-EU_" device="0603" value="100K"/>
+<part name="U$69" library="everykey" deviceset="GND" device=""/>
+<part name="U$70" library="everykey" deviceset="VD33" device=""/>
+<part name="U$71" library="everykey" deviceset="VD33" device=""/>
+<part name="X5" library="everykey" deviceset="CRYSTAL_WITH_GROUND" device="25X20" value="16MHz"/>
+<part name="C66" library="everykey" deviceset="CAP_CERAMIC" device="0402" value="12p"/>
+<part name="C67" library="everykey" deviceset="CAP_CERAMIC" device="0402" value="12p"/>
+<part name="U$72" library="everykey" deviceset="GND" device=""/>
+<part name="X3" library="everykey" deviceset="CRYSTAL" device="1206" value="32768"/>
+<part name="C68" library="everykey" deviceset="CAP_CERAMIC" device="0402" value="9p"/>
+<part name="C69" library="everykey" deviceset="CAP_CERAMIC" device="0402" value="9p"/>
+<part name="U$73" library="everykey" deviceset="GND" device=""/>
+<part name="C72" library="everykey" deviceset="CAP_CERAMIC" device="0402" value="2n2"/>
+<part name="ANT2" library="everykey" deviceset="ANTENNA_MONOPOLE" device="1206" value="2.4GHz 50Ω"/>
+<part name="U$74" library="everykey" deviceset="GND" device=""/>
+<part name="D1" library="everykey" deviceset="DIODE" device="SOD123FL" value="MBR230LSFT1"/>
+<part name="D2" library="everykey" deviceset="DIODE" device="SOD123FL" value="MBR230LSFT1"/>
+<part name="D3" library="everykey" deviceset="DIODE" device="SOD123FL" value="MBR230LSFT1"/>
+<part name="D4" library="everykey" deviceset="DIODE" device="SOD123FL" value="MBR230LSFT1"/>
+<part name="D5" library="everykey" deviceset="DIODE" device="SOD123FL" value="MBR230LSFT1"/>
+<part name="LIM" library="everykey" deviceset="JUMPER" device="SOLDER_OPEN" value="JUMPERSOLDER_OPEN"/>
+<part name="R35" library="everykey" deviceset="R-EU_" device="0603" value="100K"/>
+<part name="R36" library="everykey" deviceset="R-EU_" device="0603" value="100K"/>
+<part name="U$1" library="everykey" deviceset="GND" device=""/>
+<part name="ETH" library="everykey" deviceset="ETHERNET_JACK_LEDS" device="RB1-125BAG1A"/>
+<part name="U$11" library="everykey" deviceset="GND" device=""/>
+<part name="U$16" library="everykey" deviceset="VD33" device=""/>
+<part name="!PGM" library="everykey" deviceset="PUSHBUTTON" device="KMR2XX"/>
+<part name="R37" library="everykey" deviceset="R-EU_" device="0603" value="100K"/>
+<part name="R38" library="everykey" deviceset="R-EU_" device="0603" value="2K2"/>
+<part name="R39" library="everykey" deviceset="R-EU_" device="0603" value="2K2"/>
+<part name="IC4" library="everykey" deviceset="SKYWORKS_AAT4280A" device="SC70JW-8-NOTHERMALS"/>
+<part name="IC5" library="everykey" deviceset="SKYWORKS_AAT4280A" device="SC70JW-8-NOTHERMALS"/>
+<part name="IC6" library="everykey" deviceset="SKYWORKS_AAT4280A" device="SC70JW-8-NOTHERMALS"/>
+<part name="IC7" library="everykey" deviceset="SKYWORKS_AAT4280A" device="SC70JW-8-NOTHERMALS"/>
+<part name="IC8" library="everykey" deviceset="SKYWORKS_AAT4280A" device="SC70JW-8-NOTHERMALS"/>
+<part name="C30" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="WL_EN" library="everykey" deviceset="JUMPER" device="SOLDER_CLOSED"/>
+<part name="CC_DEBUG" library="everykey" deviceset="HEADER-2X5" device="SMD-1.27MM"/>
+<part name="U$28" library="everykey" deviceset="GND" device=""/>
+<part name="C35" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C36" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C37" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C74" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C75" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C76" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="1µ"/>
+<part name="C77" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="1µ"/>
+<part name="C78" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="1µ"/>
+<part name="C79" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="1µ"/>
+<part name="C80" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="1µ"/>
+<part name="5VDC_IN" library="everykey" deviceset="JACK-PLUG" device="CUI_PJ102BH" value="2A max"/>
+<part name="U$29" library="everykey" deviceset="GND" device=""/>
+<part name="IC9" library="everykey" deviceset="FXMA108" device="20-DFN"/>
+<part name="U$30" library="everykey" deviceset="VD33" device=""/>
+<part name="U$32" library="everykey" deviceset="GND" device=""/>
+<part name="UART_5V" library="everykey" deviceset="HEADER-1X5" device="ROUND" value="UART_5V"/>
+<part name="GPIO_5V" library="everykey" deviceset="HEADER-1X7" device="ROUND"/>
+<part name="SPI0" library="everykey" deviceset="HEADER-1X7" device="ROUND"/>
+<part name="U$34" library="everykey" deviceset="GND" device=""/>
+<part name="U$35" library="everykey" deviceset="VD33" device=""/>
+<part name="UART2" library="everykey" deviceset="HEADER-1X6" device="ROUND" value="UART2"/>
+<part name="UART3" library="everykey" deviceset="HEADER-1X7" device="ROUND"/>
+<part name="U$36" library="everykey" deviceset="GND" device=""/>
+<part name="U$37" library="everykey" deviceset="VD33" device=""/>
+<part name="ADC" library="everykey" deviceset="HEADER-1X7" device="ROUND"/>
+<part name="LOGO2" library="everykey" deviceset="LOGO" device="KRONE"/>
+<part name="LOGO3" library="everykey" deviceset="LOGO" device="KRONE"/>
+<part name="LOGO4" library="everykey" deviceset="LOGO" device="KRONE"/>
+<part name="R40" library="everykey" deviceset="R-EU_" device="0603" value="33"/>
+<part name="R41" library="everykey" deviceset="R-EU_" device="0603" value="33"/>
+<part name="R42" library="everykey" deviceset="R-EU_" device="0603" value="10K"/>
+<part name="U$6" library="everykey" deviceset="VETH33" device=""/>
+<part name="BAL1" library="everykey" deviceset="BALUN" device="WLCSP"/>
+<part name="BATT" library="everykey" deviceset="BATTERY_WITH_HOLDER" device=""/>
+<part name="R43" library="everykey" deviceset="R-EU_" device="0603" value="806"/>
+<part name="R44" library="everykey" deviceset="R-EU_" device="0603" value="806"/>
+<part name="R45" library="everykey" deviceset="R-EU_" device="0603" value="806"/>
+<part name="LED2" library="everykey" deviceset="LED" device="0603"/>
+<part name="LED3" library="everykey" deviceset="LED" device="0603"/>
+<part name="LED4" library="everykey" deviceset="LED" device="0603"/>
+<part name="U$19" library="everykey" deviceset="GND" device=""/>
+<part name="I2S" library="everykey" deviceset="HEADER-2X5" device="SMD-1.27MM"/>
+<part name="HEADPHONE" library="everykey" deviceset="AUDIOJACK-STEREO-3P" device="CUI_SJ_3523"/>
 </parts>
 <sheets>
 <sheet>

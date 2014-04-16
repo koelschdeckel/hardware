@@ -172,7 +172,7 @@ GND from PGND.
 See schematics notes.</text>
 </plain>
 <libraries>
-<library name="anykey">
+<library name="everykey">
 <description>Meine Komponenten - alles Zeug, was ich benutze, kommt hier rein. Und wird geändert, sodass alles konsistent ist und funktioniert.</description>
 <packages>
 <package name="LTC4080_DFN">
@@ -3314,571 +3314,571 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="PWR1" library="anykey" package="LTC4080_DFN" value="LTC4080DFN" x="72.1" y="54.4" smashed="yes" rot="R270">
+<element name="PWR1" library="everykey" package="LTC4080_DFN" value="LTC4080DFN" x="72.1" y="54.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="74.5" y="53" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C8" library="anykey" package="0603" value="4µ7" x="76.4" y="57.8" smashed="yes">
+<element name="C8" library="everykey" package="0603" value="4µ7" x="76.4" y="57.8" smashed="yes">
 <attribute name="NAME" x="77.778" y="57.354" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C9" library="anykey" package="0603" value="4µ7" x="72.8" y="57.8" smashed="yes" rot="R180">
+<element name="C9" library="everykey" package="0603" value="4µ7" x="72.8" y="57.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="72.178" y="58.354" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C10" library="anykey" package="0603" value="4µ7" x="75.7" y="50.7" smashed="yes" rot="R180">
+<element name="C10" library="everykey" package="0603" value="4µ7" x="75.7" y="50.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="75.578" y="49.254" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C11" library="anykey" package="0603" value="10p" x="72.4" y="50.7" smashed="yes" rot="R180">
+<element name="C11" library="everykey" package="0603" value="10p" x="72.4" y="50.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="71.578" y="51.354" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="L1" library="anykey" package="INDUCTOR_40X40" value="10µ" x="76.7" y="53.9" smashed="yes">
+<element name="L1" library="everykey" package="INDUCTOR_40X40" value="10µ" x="76.7" y="53.9" smashed="yes">
 <attribute name="NAME" x="76.2" y="56.2" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="R1" library="anykey" package="0603" value="768k" x="69.5" y="49.9" smashed="yes" rot="R90">
+<element name="R1" library="everykey" package="0603" value="768k" x="69.5" y="49.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="68.878" y="47.654" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="R2" library="anykey" package="0603" value="2M4" x="72.4" y="49.2" smashed="yes">
+<element name="R2" library="everykey" package="0603" value="2M4" x="72.4" y="49.2" smashed="yes">
 <attribute name="NAME" x="73.778" y="48.754" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="R3" library="anykey" package="0603" value="806" x="69.8" y="57.8" smashed="yes">
+<element name="R3" library="everykey" package="0603" value="806" x="69.8" y="57.8" smashed="yes">
 <attribute name="NAME" x="69.278" y="58.354" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="R4" library="anykey" package="0603" value="806" x="69.4" y="55.4" smashed="yes" rot="R90">
+<element name="R4" library="everykey" package="0603" value="806" x="69.4" y="55.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="70.446" y="54.878" size="0.5" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="LED1" library="anykey" package="0603_POLAR" value="CHARGE" x="69.4" y="52.6" smashed="yes" rot="R270">
+<element name="LED1" library="everykey" package="0603_POLAR" value="CHARGE" x="69.4" y="52.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="70.154" y="52.622" size="0.8" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="USB0" library="anykey" package="USB_MICRO_SMD" value="USB_MICROSMD" x="30" y="78.5" smashed="yes" rot="R180">
+<element name="USB0" library="everykey" package="USB_MICRO_SMD" value="USB_MICROSMD" x="30" y="78.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="31.395" y="74.625" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="MCU" library="anykey" package="QFP144-0.5" value="LPC1837" x="38" y="54" smashed="yes">
+<element name="MCU" library="everykey" package="QFP144-0.5" value="LPC1837" x="38" y="54" smashed="yes">
 <attribute name="NAME" x="48.5" y="43.85" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="X2" library="anykey" package="ABM8G" value="12MHz" x="23.1" y="56.4" smashed="yes">
+<element name="X2" library="everykey" package="ABM8G" value="12MHz" x="23.1" y="56.4" smashed="yes">
 <attribute name="NAME" x="20.995" y="55.73" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C65" library="anykey" package="0603" value="18p" x="21.8" y="53.3" smashed="yes" rot="R270">
+<element name="C65" library="everykey" package="0603" value="18p" x="21.8" y="53.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="21.146" y="52.278" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C2" library="anykey" package="0603" value="18p" x="22.5" y="58.7" smashed="yes" rot="R180">
+<element name="C2" library="everykey" package="0603" value="18p" x="22.5" y="58.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="21.222" y="59.146" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C3" library="anykey" package="0603" value="100n" x="24" y="50.75" smashed="yes" rot="R180">
+<element name="C3" library="everykey" package="0603" value="100n" x="24" y="50.75" smashed="yes" rot="R180">
 <attribute name="NAME" x="22.722" y="51.096" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C4" library="anykey" package="0603" value="100n" x="25.61" y="42.9" smashed="yes" rot="R270">
+<element name="C4" library="everykey" package="0603" value="100n" x="25.61" y="42.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="23.678" y="42.564" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C5" library="anykey" package="0603" value="100n" x="32.4" y="40.55" smashed="yes">
+<element name="C5" library="everykey" package="0603" value="100n" x="32.4" y="40.55" smashed="yes">
 <attribute name="NAME" x="33.778" y="40.104" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C6" library="anykey" package="0603" value="100n" x="40.25" y="40" smashed="yes" rot="R270">
+<element name="C6" library="everykey" package="0603" value="100n" x="40.25" y="40" smashed="yes" rot="R270">
 <attribute name="NAME" x="39.596" y="39.378" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C7" library="anykey" package="0603" value="100n" x="46.25" y="40" smashed="yes" rot="R270">
+<element name="C7" library="everykey" package="0603" value="100n" x="46.25" y="40" smashed="yes" rot="R270">
 <attribute name="NAME" x="46.904" y="41.222" size="0.8" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="C12" library="anykey" package="0603" value="100n" x="52" y="47.45" smashed="yes">
+<element name="C12" library="everykey" package="0603" value="100n" x="52" y="47.45" smashed="yes">
 <attribute name="NAME" x="53.378" y="47.104" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C13" library="anykey" package="0603" value="100n" x="52" y="55.65" smashed="yes">
+<element name="C13" library="everykey" package="0603" value="100n" x="52" y="55.65" smashed="yes">
 <attribute name="NAME" x="53.378" y="55.404" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C14" library="anykey" package="0603" value="100n" x="50.35" y="64.7" smashed="yes" rot="R90">
+<element name="C14" library="everykey" package="0603" value="100n" x="50.35" y="64.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="49.696" y="63.678" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C15" library="anykey" package="0603" value="100n" x="45.75" y="68" smashed="yes" rot="R90">
+<element name="C15" library="everykey" package="0603" value="100n" x="45.75" y="68" smashed="yes" rot="R90">
 <attribute name="NAME" x="46.404" y="68.422" size="0.8" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="C16" library="anykey" package="0603" value="100n" x="37.75" y="68" smashed="yes" rot="R90">
+<element name="C16" library="everykey" package="0603" value="100n" x="37.75" y="68" smashed="yes" rot="R90">
 <attribute name="NAME" x="39.096" y="66.978" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C17" library="anykey" package="0603" value="100n" x="35.75" y="68" smashed="yes" rot="R90">
+<element name="C17" library="everykey" package="0603" value="100n" x="35.75" y="68" smashed="yes" rot="R90">
 <attribute name="NAME" x="37.096" y="66.978" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C18" library="anykey" package="0603" value="100n" x="32.5" y="67.6" smashed="yes" rot="R180">
+<element name="C18" library="everykey" package="0603" value="100n" x="32.5" y="67.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.722" y="67.046" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C19" library="anykey" package="0603" value="100n" x="29.4" y="67.6" smashed="yes" rot="R180">
+<element name="C19" library="everykey" package="0603" value="100n" x="29.4" y="67.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="30.622" y="66.946" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C20" library="anykey" package="0603" value="100n" x="24" y="60.95" smashed="yes" rot="R180">
+<element name="C20" library="everykey" package="0603" value="100n" x="24" y="60.95" smashed="yes" rot="R180">
 <attribute name="NAME" x="22.722" y="61.296" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="R5" library="anykey" package="0603" value="33" x="52" y="54.2" smashed="yes">
+<element name="R5" library="everykey" package="0603" value="33" x="52" y="54.2" smashed="yes">
 <attribute name="NAME" x="53.378" y="53.854" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="R6" library="anykey" package="0603" value="33" x="52" y="52.7" smashed="yes">
+<element name="R6" library="everykey" package="0603" value="33" x="52" y="52.7" smashed="yes">
 <attribute name="NAME" x="54.246" y="52.178" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="USB1" library="anykey" package="USB_MICRO_SMD" value="USB_MICROSMD" x="44.2" y="78.5" smashed="yes" rot="R180">
+<element name="USB1" library="everykey" package="USB_MICRO_SMD" value="USB_MICROSMD" x="44.2" y="78.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="45.695" y="74.725" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C21" library="anykey" package="0603" value="100n" x="24" y="53.65" smashed="yes" rot="R180">
+<element name="C21" library="everykey" package="0603" value="100n" x="24" y="53.65" smashed="yes" rot="R180">
 <attribute name="NAME" x="25.304" y="55.422" size="0.8" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="R7" library="anykey" package="0603" value="12K" x="24" y="52.2" smashed="yes" rot="R180">
+<element name="R7" library="everykey" package="0603" value="12K" x="24" y="52.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="25.354" y="52.922" size="0.8" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="R8" library="anykey" package="0603" value="12K" x="24" y="49.25" smashed="yes" rot="R180">
+<element name="R8" library="everykey" package="0603" value="12K" x="24" y="49.25" smashed="yes" rot="R180">
 <attribute name="NAME" x="24.822" y="48.596" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="R9" library="anykey" package="0603" value="12K" x="36.8" y="70.3" smashed="yes" rot="R180">
+<element name="R9" library="everykey" package="0603" value="12K" x="36.8" y="70.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="36.178" y="70.954" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="RESET" library="anykey" package="CK-KMR2" value="PUSHBUTTONKMR2XX" x="37.1" y="73.8" smashed="yes" rot="R270"/>
-<element name="LPC_DEBUG" library="anykey" package="2X05_SMT" value="DEBUG" x="30.8" y="36.5" smashed="yes" rot="R90">
+<element name="RESET" library="everykey" package="CK-KMR2" value="PUSHBUTTONKMR2XX" x="37.1" y="73.8" smashed="yes" rot="R270"/>
+<element name="LPC_DEBUG" library="everykey" package="2X05_SMT" value="DEBUG" x="30.8" y="36.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="35.145" y="33.095" size="0.8128" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="R10" library="anykey" package="0603" value="12K" x="25.45" y="34" smashed="yes" rot="R180">
+<element name="R10" library="everykey" package="0603" value="12K" x="25.45" y="34" smashed="yes" rot="R180">
 <attribute name="NAME" x="24.172" y="34.346" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="R11" library="anykey" package="0603" value="12K" x="25.45" y="36.5" smashed="yes" rot="R180">
+<element name="R11" library="everykey" package="0603" value="12K" x="25.45" y="36.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="24.172" y="36.846" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="R12" library="anykey" package="0603" value="12K" x="25.45" y="37.75" smashed="yes" rot="R180">
+<element name="R12" library="everykey" package="0603" value="12K" x="25.45" y="37.75" smashed="yes" rot="R180">
 <attribute name="NAME" x="24.172" y="38.096" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="R13" library="anykey" package="0603" value="12K" x="25.45" y="35.25" smashed="yes">
+<element name="R13" library="everykey" package="0603" value="12K" x="25.45" y="35.25" smashed="yes">
 <attribute name="NAME" x="24.172" y="35.596" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="X1" library="anykey" package="1206_MINIMELF_COMBO" value="ABS07-32768" x="40.1" y="68.9" smashed="yes" rot="R270">
+<element name="X1" library="everykey" package="1206_MINIMELF_COMBO" value="ABS07-32768" x="40.1" y="68.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="39.53" y="71.37" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C22" library="anykey" package="0603" value="18p" x="42" y="68" smashed="yes" rot="R90">
+<element name="C22" library="everykey" package="0603" value="18p" x="42" y="68" smashed="yes" rot="R90">
 <attribute name="NAME" x="42.654" y="68.422" size="0.8" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="C23" library="anykey" package="0603" value="18p" x="42" y="70.8" smashed="yes" rot="R90">
+<element name="C23" library="everykey" package="0603" value="18p" x="42" y="70.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="42.346" y="72.178" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="IC1" library="anykey" package="QFN24-0.5-EP-VIAS" value="LAN8720AVIAS" x="61" y="52"/>
-<element name="R14" library="anykey" package="0603" value="330" x="66.5" y="54.5" smashed="yes" rot="R270">
+<element name="IC1" library="everykey" package="QFN24-0.5-EP-VIAS" value="LAN8720AVIAS" x="61" y="52"/>
+<element name="R14" library="everykey" package="0603" value="330" x="66.5" y="54.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="63.878" y="53.154" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="R15" library="anykey" package="0603" value="330" x="68" y="54.5" smashed="yes" rot="R270">
+<element name="R15" library="everykey" package="0603" value="330" x="68" y="54.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="68.446" y="55.878" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C24" library="anykey" package="0603" value="100n" x="56.3" y="53.2" smashed="yes" rot="R180">
+<element name="C24" library="everykey" package="0603" value="100n" x="56.3" y="53.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="55.278" y="51.854" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C25" library="anykey" package="0603" value="100n" x="64.5" y="54.8" smashed="yes">
+<element name="C25" library="everykey" package="0603" value="100n" x="64.5" y="54.8" smashed="yes">
 <attribute name="NAME" x="63.322" y="55.246" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C26" library="anykey" package="0603" value="100n" x="61.4" y="47.6" smashed="yes" rot="R270">
+<element name="C26" library="everykey" package="0603" value="100n" x="61.4" y="47.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="62.822" y="46.246" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C27" library="anykey" package="0603" value="1µ" x="57.1" y="47.6" smashed="yes" rot="R270">
+<element name="C27" library="everykey" package="0603" value="1µ" x="57.1" y="47.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="57.722" y="46.246" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C28" library="anykey" package="0603" value="470p" x="58.6" y="47.6" smashed="yes" rot="R270">
+<element name="C28" library="everykey" package="0603" value="470p" x="58.6" y="47.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="60.122" y="46.246" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="R16" library="anykey" package="0603" value="12K1" x="56.3" y="54.7" smashed="yes">
+<element name="R16" library="everykey" package="0603" value="12K1" x="56.3" y="54.7" smashed="yes">
 <attribute name="NAME" x="57.678" y="54.654" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C29" library="anykey" package="0603" value="10µ" x="64.1" y="47.6" smashed="yes" rot="R270">
+<element name="C29" library="everykey" package="0603" value="10µ" x="64.1" y="47.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="65.422" y="46.246" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C31" library="anykey" package="0603" value="100n" x="61" y="57.25" smashed="yes" rot="R270">
+<element name="C31" library="everykey" package="0603" value="100n" x="61" y="57.25" smashed="yes" rot="R270">
 <attribute name="NAME" x="60.128" y="58.954" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="R17" library="anykey" package="0603" value="49R9" x="63.3" y="58.1" smashed="yes">
+<element name="R17" library="everykey" package="0603" value="49R9" x="63.3" y="58.1" smashed="yes">
 <attribute name="NAME" x="62.778" y="58.654" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="R18" library="anykey" package="0603" value="49R9" x="63.3" y="56.2" smashed="yes" rot="R180">
+<element name="R18" library="everykey" package="0603" value="49R9" x="63.3" y="56.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="62.378" y="56.754" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="R19" library="anykey" package="0603" value="49R9" x="58.7" y="56.2" smashed="yes" rot="R180">
+<element name="R19" library="everykey" package="0603" value="49R9" x="58.7" y="56.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="57.678" y="56.754" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="R20" library="anykey" package="0603" value="49R9" x="58.7" y="58.1" smashed="yes">
+<element name="R20" library="everykey" package="0603" value="49R9" x="58.7" y="58.1" smashed="yes">
 <attribute name="NAME" x="57.378" y="58.654" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C32" library="anykey" package="0603" value="100n" x="66.3" y="58.1" smashed="yes">
+<element name="C32" library="everykey" package="0603" value="100n" x="66.3" y="58.1" smashed="yes">
 <attribute name="NAME" x="67.422" y="57.546" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C33" library="anykey" package="0603" value="100n" x="55.7" y="58.1" smashed="yes" rot="R180">
+<element name="C33" library="everykey" package="0603" value="100n" x="55.7" y="58.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="56.822" y="57.546" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="X4" library="anykey" package="CRYSTAL25X20" value="50MHZ" x="49.6" y="35.6" smashed="yes">
+<element name="X4" library="everykey" package="CRYSTAL25X20" value="50MHZ" x="49.6" y="35.6" smashed="yes">
 <attribute name="NAME" x="51.3" y="36.5" size="0.8" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="C34" library="anykey" package="0603" value="100n" x="47.25" y="35.6" smashed="yes" rot="R90">
+<element name="C34" library="everykey" package="0603" value="100n" x="47.25" y="35.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="46.496" y="34.578" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="IC2" library="anykey" package="QFN32-0.5-EP-VIAS" value="TLV320AIC3100VIAS" x="66.5" y="27.9" smashed="yes" rot="R90">
+<element name="IC2" library="everykey" package="QFN32-0.5-EP-VIAS" value="TLV320AIC3100VIAS" x="66.5" y="27.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="65.6" y="24" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C38" library="anykey" package="0603" value="100n" x="65.4" y="33.2" smashed="yes" rot="R90">
+<element name="C38" library="everykey" package="0603" value="100n" x="65.4" y="33.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="64.178" y="30.954" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C39" library="anykey" package="0603" value="100n" x="61.2" y="33.2" smashed="yes" rot="R90">
+<element name="C39" library="everykey" package="0603" value="100n" x="61.2" y="33.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="60.546" y="32.278" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C40" library="anykey" package="0603" value="22µ" x="64" y="33.2" smashed="yes" rot="R90">
+<element name="C40" library="everykey" package="0603" value="22µ" x="64" y="33.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="61.978" y="30.954" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C41" library="anykey" package="0603" value="22µ" x="62.6" y="33.2" smashed="yes" rot="R90">
+<element name="C41" library="everykey" package="0603" value="22µ" x="62.6" y="33.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="61.378" y="34.454" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C42" library="anykey" package="0603" value="10µ" x="62.1" y="26.1" smashed="yes" rot="R270">
+<element name="C42" library="everykey" package="0603" value="10µ" x="62.1" y="26.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="60.978" y="23.954" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C43" library="anykey" package="0603" value="100n" x="62.1" y="29.7" smashed="yes" rot="R90">
+<element name="C43" library="everykey" package="0603" value="100n" x="62.1" y="29.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="62.654" y="30.922" size="0.8" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="C44" library="anykey" package="0603" value="10µ" x="63.6" y="21.6" smashed="yes" rot="R180">
+<element name="C44" library="everykey" package="0603" value="10µ" x="63.6" y="21.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="62.522" y="22.046" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C45" library="anykey" package="0603" value="100n" x="63.6" y="23.1" smashed="yes" rot="R180">
+<element name="C45" library="everykey" package="0603" value="100n" x="63.6" y="23.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="62.422" y="23.446" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C46" library="anykey" package="0603" value="10µ" x="64.5" y="35.3" smashed="yes" rot="R180">
+<element name="C46" library="everykey" package="0603" value="10µ" x="64.5" y="35.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="63.146" y="35.378" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C47" library="anykey" package="0603" value="100n" x="64.5" y="36.6" smashed="yes" rot="R180">
+<element name="C47" library="everykey" package="0603" value="100n" x="64.5" y="36.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="63.578" y="37.254" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C48" library="anykey" package="0603" value="10µ" x="67" y="21.6" smashed="yes">
+<element name="C48" library="everykey" package="0603" value="10µ" x="67" y="21.6" smashed="yes">
 <attribute name="NAME" x="68.454" y="22.422" size="0.8" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="C49" library="anykey" package="0603" value="100n" x="67" y="23.1" smashed="yes">
+<element name="C49" library="everykey" package="0603" value="100n" x="67" y="23.1" smashed="yes">
 <attribute name="NAME" x="69.246" y="22.678" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="LS" library="anykey" package="1X02_ROUND" value="LS" x="78.105" y="26.035" smashed="yes" rot="R270">
+<element name="LS" library="everykey" package="1X02_ROUND" value="LS" x="78.105" y="26.035" smashed="yes" rot="R270">
 <attribute name="NAME" x="78.8538" y="27.0112" size="0.8" layer="25" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="HP" library="anykey" package="1X03_ROUND" value="HP" x="75.565" y="19.685" smashed="yes" rot="R270">
+<element name="HP" library="everykey" package="1X03_ROUND" value="HP" x="75.565" y="19.685" smashed="yes" rot="R270">
 <attribute name="NAME" x="75.3938" y="16.1512" size="0.8" layer="25" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="C50" library="anykey" package="0805" value="47µ" x="71.5" y="23.3" smashed="yes">
+<element name="C50" library="everykey" package="0805" value="47µ" x="71.5" y="23.3" smashed="yes">
 <attribute name="NAME" x="73.554" y="24.514" size="0.8" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="C51" library="anykey" package="0805" value="47µ" x="71.5" y="20.8" smashed="yes">
+<element name="C51" library="everykey" package="0805" value="47µ" x="71.5" y="20.8" smashed="yes">
 <attribute name="NAME" x="74.346" y="19.886" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C52" library="anykey" package="0603" value="1µ" x="72.1" y="30.2" smashed="yes" rot="R180">
+<element name="C52" library="everykey" package="0603" value="1µ" x="72.1" y="30.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="73.354" y="31.022" size="0.8" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="C53" library="anykey" package="0603" value="1µ" x="71.4" y="27.9" smashed="yes" rot="R270">
+<element name="C53" library="everykey" package="0603" value="1µ" x="71.4" y="27.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="70.746" y="26.878" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C54" library="anykey" package="0603" value="100n" x="72.8" y="27.9" smashed="yes" rot="R90">
+<element name="C54" library="everykey" package="0603" value="100n" x="72.8" y="27.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.354" y="28.722" size="0.8" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="R21" library="anykey" package="0603" value="2K2" x="72.1" y="25.9" smashed="yes" rot="R180">
+<element name="R21" library="everykey" package="0603" value="2K2" x="72.1" y="25.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="71.078" y="24.454" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="MIC" library="anykey" package="1X02_ROUND" value="MIC" x="75.565" y="26.035" smashed="yes" rot="R90">
+<element name="MIC" library="everykey" package="1X02_ROUND" value="MIC" x="75.565" y="26.035" smashed="yes" rot="R90">
 <attribute name="NAME" x="76.4638" y="27.1812" size="0.8" layer="25" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="LINE" library="anykey" package="1X03_ROUND" value="LINE" x="78.105" y="19.685" smashed="yes" rot="R90">
+<element name="LINE" library="everykey" package="1X03_ROUND" value="LINE" x="78.105" y="19.685" smashed="yes" rot="R90">
 <attribute name="NAME" x="77.8238" y="15.6012" size="0.8" layer="25" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="WIFI" library="anykey" package="CC3000-EXT" value="CC3000EXTENDED" x="8.5" y="20.9" smashed="yes" rot="R180">
+<element name="WIFI" library="everykey" package="CC3000-EXT" value="CC3000EXTENDED" x="8.5" y="20.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="9.9" y="11.9" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="ANT1" library="anykey" package="1206_MINIMELF_COMBO" value="2.4GHz 50Ω" x="6" y="6" smashed="yes" rot="R225">
+<element name="ANT1" library="everykey" package="1206_MINIMELF_COMBO" value="2.4GHz 50Ω" x="6" y="6" smashed="yes" rot="R225">
 <attribute name="NAME" x="7.89605" y="6.399996875" size="0.8" layer="25" font="vector" rot="R225"/>
 </element>
-<element name="L5" library="anykey" package="0402" value="2n2" x="11.726528125" y="11.426175" smashed="yes" rot="R160">
+<element name="L5" library="everykey" package="0402" value="2n2" x="11.726528125" y="11.426175" smashed="yes" rot="R160">
 <attribute name="NAME" x="12.597246875" y="10.904896875" size="0.8" layer="25" font="vector" rot="R340"/>
 </element>
-<element name="L6" library="anykey" package="0402" value="DNP" x="10.0088" y="8.916165625" smashed="yes" rot="R135">
+<element name="L6" library="everykey" package="0402" value="DNP" x="10.0088" y="8.916165625" smashed="yes" rot="R135">
 <attribute name="NAME" x="10.5421875" y="8.030875" size="0.8" layer="25" font="vector" rot="R315"/>
 </element>
-<element name="C55" library="anykey" package="0402" value="2p2" x="10.520990625" y="10.33635" smashed="yes" rot="R235">
+<element name="C55" library="everykey" package="0402" value="2p2" x="10.520990625" y="10.33635" smashed="yes" rot="R235">
 <attribute name="NAME" x="10.78755" y="9.86959375" size="0.8" layer="25" font="vector" rot="R325"/>
 </element>
-<element name="SCL" library="anykey" package="0603_SOLDERJUMPER_CLOSED" value="" x="20.5" y="16.3" smashed="yes" rot="R180">
+<element name="SCL" library="everykey" package="0603_SOLDERJUMPER_CLOSED" value="" x="20.5" y="16.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="19.378" y="16.954" size="0.8" layer="25" font="vector"/>
 <attribute name="VALUE" x="18.722" y="16.935" size="0.5" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="SDA" library="anykey" package="0603_SOLDERJUMPER_CLOSED" value="JUMPERSOLDER_CLOSED" x="17.66446875" y="16.32131875" smashed="yes" rot="R180">
+<element name="SDA" library="everykey" package="0603_SOLDERJUMPER_CLOSED" value="JUMPERSOLDER_CLOSED" x="17.66446875" y="16.32131875" smashed="yes" rot="R180">
 <attribute name="NAME" x="16.51353125" y="16.93268125" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="R22" library="anykey" package="0603" value="2K2" x="55.1" y="32" smashed="yes">
+<element name="R22" library="everykey" package="0603" value="2K2" x="55.1" y="32" smashed="yes">
 <attribute name="NAME" x="54.178" y="32.654" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="R23" library="anykey" package="0603" value="2K2" x="51.7" y="32" smashed="yes" rot="R180">
+<element name="R23" library="everykey" package="0603" value="2K2" x="51.7" y="32" smashed="yes" rot="R180">
 <attribute name="NAME" x="50.778" y="32.654" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="TX_SD" library="anykey" package="0603_SOLDERJUMPER_CLOSED" value="JUMPERSOLDER_CLOSED" x="53.9" y="36.5" smashed="yes" rot="R270"/>
-<element name="RX_SD" library="anykey" package="0603_SOLDERJUMPER_CLOSED" value="JUMPERSOLDER_CLOSED" x="55.2" y="36.5" smashed="yes" rot="R270"/>
-<element name="TX_WS" library="anykey" package="0603_SOLDERJUMPER_CLOSED" value="JUMPERSOLDER_CLOSED" x="56.5" y="36.5" smashed="yes" rot="R270"/>
-<element name="RX_WS" library="anykey" package="0603_SOLDERJUMPER_CLOSED" value="JUMPERSOLDER_CLOSED" x="57.8" y="36.5" smashed="yes" rot="R270"/>
-<element name="TX_SCK" library="anykey" package="0603_SOLDERJUMPER_CLOSED" value="JUMPERSOLDER_CLOSED" x="59.1" y="36.5" smashed="yes" rot="R270"/>
-<element name="RX_SCK" library="anykey" package="0603_SOLDERJUMPER_CLOSED" value="JUMPERSOLDER_CLOSED" x="60.4" y="36.5" smashed="yes" rot="R270"/>
-<element name="MCLK" library="anykey" package="0603_SOLDERJUMPER_CLOSED" value="JUMPERSOLDER_CLOSED" x="61.7" y="36.5" smashed="yes" rot="R270"/>
-<element name="SD_CARD" library="anykey" package="AMPHENO_101_00313_EXT_PADS" value="SD_CARDEXTENDED" x="41.3" y="5.4" smashed="yes" rot="R270">
+<element name="TX_SD" library="everykey" package="0603_SOLDERJUMPER_CLOSED" value="JUMPERSOLDER_CLOSED" x="53.9" y="36.5" smashed="yes" rot="R270"/>
+<element name="RX_SD" library="everykey" package="0603_SOLDERJUMPER_CLOSED" value="JUMPERSOLDER_CLOSED" x="55.2" y="36.5" smashed="yes" rot="R270"/>
+<element name="TX_WS" library="everykey" package="0603_SOLDERJUMPER_CLOSED" value="JUMPERSOLDER_CLOSED" x="56.5" y="36.5" smashed="yes" rot="R270"/>
+<element name="RX_WS" library="everykey" package="0603_SOLDERJUMPER_CLOSED" value="JUMPERSOLDER_CLOSED" x="57.8" y="36.5" smashed="yes" rot="R270"/>
+<element name="TX_SCK" library="everykey" package="0603_SOLDERJUMPER_CLOSED" value="JUMPERSOLDER_CLOSED" x="59.1" y="36.5" smashed="yes" rot="R270"/>
+<element name="RX_SCK" library="everykey" package="0603_SOLDERJUMPER_CLOSED" value="JUMPERSOLDER_CLOSED" x="60.4" y="36.5" smashed="yes" rot="R270"/>
+<element name="MCLK" library="everykey" package="0603_SOLDERJUMPER_CLOSED" value="JUMPERSOLDER_CLOSED" x="61.7" y="36.5" smashed="yes" rot="R270"/>
+<element name="SD_CARD" library="everykey" package="AMPHENO_101_00313_EXT_PADS" value="SD_CARDEXTENDED" x="41.3" y="5.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="50.7" y="29.2" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="R24" library="anykey" package="0603" value="100K" x="40.9" y="32" smashed="yes" rot="R180">
+<element name="R24" library="everykey" package="0603" value="100K" x="40.9" y="32" smashed="yes" rot="R180">
 <attribute name="NAME" x="39.978" y="32.654" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="R25" library="anykey" package="0603" value="100K" x="27.4" y="31.9" smashed="yes" rot="R90">
+<element name="R25" library="everykey" package="0603" value="100K" x="27.4" y="31.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="28.078" y="31.454" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C56" library="anykey" package="0603" value="1µ" x="37.9" y="32" smashed="yes" rot="R180">
+<element name="C56" library="everykey" package="0603" value="1µ" x="37.9" y="32" smashed="yes" rot="R180">
 <attribute name="NAME" x="36.878" y="32.654" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="I2C0" library="anykey" package="1X05_ROUND" value="I2C0" x="12.065" y="40.005" smashed="yes" rot="R270">
+<element name="I2C0" library="everykey" package="1X05_ROUND" value="I2C0" x="12.065" y="40.005" smashed="yes" rot="R270">
 <attribute name="NAME" x="10.8688" y="46.5938" size="0.8" layer="25" font="vector" ratio="10"/>
 </element>
-<element name="I2C1" library="anykey" package="1X05_ROUND" value="I2C1" x="17.145" y="40.005" smashed="yes" rot="R270">
+<element name="I2C1" library="everykey" package="1X05_ROUND" value="I2C1" x="17.145" y="40.005" smashed="yes" rot="R270">
 <attribute name="NAME" x="15.9688" y="46.5738" size="0.8" layer="25" font="vector" ratio="10"/>
 </element>
-<element name="A_SDA" library="anykey" package="0603_SOLDERJUMPER_CLOSED" value="JUMPERSOLDER_CLOSED" x="66.8" y="19" smashed="yes" rot="R90">
+<element name="A_SDA" library="everykey" package="0603_SOLDERJUMPER_CLOSED" value="JUMPERSOLDER_CLOSED" x="66.8" y="19" smashed="yes" rot="R90">
 <attribute name="NAME" x="67.354" y="21.122" size="0.8" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="A_SCL" library="anykey" package="0603_SOLDERJUMPER_CLOSED" value="JUMPERSOLDER_CLOSED" x="65.6" y="19" smashed="yes" rot="R90">
+<element name="A_SCL" library="everykey" package="0603_SOLDERJUMPER_CLOSED" value="JUMPERSOLDER_CLOSED" x="65.6" y="19" smashed="yes" rot="R90">
 <attribute name="NAME" x="64.054" y="21.122" size="0.8" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="IC3" library="anykey" package="SON10-0.5-EP-VIAS" value="TPS2500" x="76.4" y="65.5" smashed="yes">
+<element name="IC3" library="everykey" package="SON10-0.5-EP-VIAS" value="TPS2500" x="76.4" y="65.5" smashed="yes">
 <attribute name="NAME" x="79.2" y="64.4" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C57" library="anykey" package="0805" value="22µ 10V" x="74.9" y="61.5" smashed="yes" rot="R90">
+<element name="C57" library="everykey" package="0805" value="22µ 10V" x="74.9" y="61.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.054" y="62.814" size="0.8" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="R26" library="anykey" package="0603" value="40K2" x="78.4" y="69.6" smashed="yes" rot="R270">
+<element name="R26" library="everykey" package="0603" value="40K2" x="78.4" y="69.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="78.746" y="70.978" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="R27" library="anykey" package="0603" value="100K" x="75.8" y="69.6" smashed="yes" rot="R90">
+<element name="R27" library="everykey" package="0603" value="100K" x="75.8" y="69.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="75.146" y="68.578" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="R28" library="anykey" package="0603" value="100K" x="77.1" y="69.6" smashed="yes" rot="R270">
+<element name="R28" library="everykey" package="0603" value="100K" x="77.1" y="69.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="77.446" y="70.978" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="R29" library="anykey" package="0603" value="100K" x="77.6" y="59.9" smashed="yes" rot="R180">
+<element name="R29" library="everykey" package="0603" value="100K" x="77.6" y="59.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="78.722" y="59.346" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="R30" library="anykey" package="0603" value="10K" x="36.4" y="77" smashed="yes" rot="R90">
+<element name="R30" library="everykey" package="0603" value="10K" x="36.4" y="77" smashed="yes" rot="R90">
 <attribute name="NAME" x="37.422" y="79.146" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="R31" library="anykey" package="0603" value="100K" x="38.6" y="76.2" smashed="yes" rot="R180">
+<element name="R31" library="everykey" package="0603" value="100K" x="38.6" y="76.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="37.278" y="76.854" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="R32" library="anykey" package="0603" value="10K" x="46.7" y="72.7" smashed="yes" rot="R90">
+<element name="R32" library="everykey" package="0603" value="10K" x="46.7" y="72.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="48.146" y="71.778" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="R33" library="anykey" package="0603" value="100K" x="44.2" y="71.9" smashed="yes">
+<element name="R33" library="everykey" package="0603" value="100K" x="44.2" y="71.9" smashed="yes">
 <attribute name="NAME" x="45.322" y="73.246" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="L7" library="anykey" package="INDUCTOR_40X40" value="2µ2" x="71" y="61.5" smashed="yes" rot="R90">
+<element name="L7" library="everykey" package="INDUCTOR_40X40" value="2µ2" x="71" y="61.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="68.9" y="62" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C58" library="anykey" package="0603" value="100n" x="77.6" y="62" smashed="yes">
+<element name="C58" library="everykey" package="0603" value="100n" x="77.6" y="62" smashed="yes">
 <attribute name="NAME" x="76.578" y="60.554" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C59" library="anykey" package="0805" value="22µ 10V" x="71.6" y="65.8" smashed="yes" rot="R180">
+<element name="C59" library="everykey" package="0805" value="22µ 10V" x="71.6" y="65.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="69.646" y="64.686" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C60" library="anykey" package="1210_POLAR" value="150µ 10V" x="71.8" y="68.5" smashed="yes" rot="R180">
+<element name="C60" library="everykey" package="1210_POLAR" value="150µ 10V" x="71.8" y="68.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="70.694" y="69.927" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="MCU1" library="anykey" package="QFN48_EP" value="NRF51822QFN48" x="67.6" y="11.8" rot="R315"/>
-<element name="C61" library="anykey" package="0402" value="47n" x="69.195834375" y="7.94314375" smashed="yes" rot="R225">
+<element name="MCU1" library="everykey" package="QFN48_EP" value="NRF51822QFN48" x="67.6" y="11.8" rot="R315"/>
+<element name="C61" library="everykey" package="0402" value="47n" x="69.195834375" y="7.94314375" smashed="yes" rot="R225">
 <attribute name="NAME" x="67.257128125" y="5.60784375" size="0.8" layer="25" font="vector" rot="R45"/>
 </element>
-<element name="C62" library="anykey" package="0402" value="100n" x="71.758578125" y="14.3" smashed="yes" rot="R45">
+<element name="C62" library="everykey" package="0402" value="100n" x="71.758578125" y="14.3" smashed="yes" rot="R45">
 <attribute name="NAME" x="70.718646875" y="13.97525" size="0.8" layer="25" font="vector" rot="R45"/>
 </element>
-<element name="C63" library="anykey" package="0402" value="100n" x="62.5" y="12.7" smashed="yes" rot="R180">
+<element name="C63" library="everykey" package="0402" value="100n" x="62.5" y="12.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="61.50641875" y="11.971421875" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C64" library="anykey" package="0402" value="100n" x="67.0192375" y="16.87315" smashed="yes">
+<element name="C64" library="everykey" package="0402" value="100n" x="67.0192375" y="16.87315" smashed="yes">
 <attribute name="NAME" x="64.0492375" y="16.50815" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C1" library="anykey" package="0402" value="1n" x="72.39705625" y="10.94141875" smashed="yes" rot="R45">
+<element name="C1" library="everykey" package="0402" value="1n" x="72.39705625" y="10.94141875" smashed="yes" rot="R45">
 <attribute name="NAME" x="72.907596875" y="9.650015625" size="0.8" layer="25" font="vector" rot="R45"/>
 </element>
-<element name="NRF_DEBUG" library="anykey" package="2X05_SMT" value="HEADER-2X5SMD-1.27MM" x="60.2" y="17.3" smashed="yes" rot="R90">
+<element name="NRF_DEBUG" library="everykey" package="2X05_SMT" value="HEADER-2X5SMD-1.27MM" x="60.2" y="17.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="56.7729125" y="14.09449375" size="0.8128" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="R34" library="anykey" package="0603" value="100K" x="59.021321875" y="12.307615625" smashed="yes" rot="R270">
+<element name="R34" library="everykey" package="0603" value="100K" x="59.021321875" y="12.307615625" smashed="yes" rot="R270">
 <attribute name="NAME" x="58.424678125" y="11.270384375" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="X5" library="anykey" package="CRYSTAL25X20" value="16MHz" x="74" y="13.6" smashed="yes" rot="R90">
+<element name="X5" library="everykey" package="CRYSTAL25X20" value="16MHz" x="74" y="13.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="72.545584375" y="12.444365625" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C66" library="anykey" package="0402" value="12p" x="74.4" y="15.7" smashed="yes">
+<element name="C66" library="everykey" package="0402" value="12p" x="74.4" y="15.7" smashed="yes">
 <attribute name="NAME" x="74.33363125" y="16.19030625" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C67" library="anykey" package="0402" value="12p" x="75.8" y="12.9" smashed="yes" rot="R90">
+<element name="C67" library="everykey" package="0402" value="12p" x="75.8" y="12.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="77.165" y="11.83" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="X3" library="anykey" package="1206_MINIMELF_COMBO" value="32768" x="70.7" y="17" smashed="yes">
+<element name="X3" library="everykey" package="1206_MINIMELF_COMBO" value="32768" x="70.7" y="17" smashed="yes">
 <attribute name="NAME" x="69.63" y="15.27" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C68" library="anykey" package="0402" value="9p" x="71.8" y="18.5" smashed="yes">
+<element name="C68" library="everykey" package="0402" value="9p" x="71.8" y="18.5" smashed="yes">
 <attribute name="NAME" x="71.098128125" y="18.929109375" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C69" library="anykey" package="0402" value="9p" x="69.7" y="18.5" smashed="yes" rot="R180">
+<element name="C69" library="everykey" package="0402" value="9p" x="69.7" y="18.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="68.661875" y="18.94089375" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C72" library="anykey" package="0402" value="2n2" x="70.061521875" y="7.677459375" smashed="yes" rot="R45">
+<element name="C72" library="everykey" package="0402" value="2n2" x="70.061521875" y="7.677459375" smashed="yes" rot="R45">
 <attribute name="NAME" x="68.31448125" y="5.22844375" size="0.8" layer="25" font="vector" rot="R45"/>
 </element>
-<element name="ANT2" library="anykey" package="1206_MINIMELF_COMBO" value="2.4GHz 50Ω" x="74" y="6" smashed="yes" rot="R315">
+<element name="ANT2" library="everykey" package="1206_MINIMELF_COMBO" value="2.4GHz 50Ω" x="74" y="6" smashed="yes" rot="R315">
 <attribute name="NAME" x="74" y="7.79605" size="0.8" layer="25" font="vector" rot="R315"/>
 </element>
-<element name="D1" library="anykey" package="SOD123FL" value="MBR230LSFT1" x="24.5" y="74.1" smashed="yes" rot="R270">
+<element name="D1" library="everykey" package="SOD123FL" value="MBR230LSFT1" x="24.5" y="74.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="23.8" y="76.5" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="D2" library="anykey" package="SOD123FL" value="MBR230LSFT1" x="50.1" y="74.5" smashed="yes" rot="R270">
+<element name="D2" library="everykey" package="SOD123FL" value="MBR230LSFT1" x="50.1" y="74.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="51.1" y="75.3" size="0.8" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="D3" library="anykey" package="SOD123FL" value="MBR230LSFT1" x="69.6" y="73.7" smashed="yes" rot="R90">
+<element name="D3" library="everykey" package="SOD123FL" value="MBR230LSFT1" x="69.6" y="73.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="70" y="76.1" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="D4" library="anykey" package="SOD123FL" value="MBR230LSFT1" x="24.5" y="69" smashed="yes" rot="R90">
+<element name="D4" library="everykey" package="SOD123FL" value="MBR230LSFT1" x="24.5" y="69" smashed="yes" rot="R90">
 <attribute name="NAME" x="23.9" y="65.9" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="D5" library="anykey" package="SOD123FL" value="MBR230LSFT1" x="50.1" y="69.7" smashed="yes" rot="R270">
+<element name="D5" library="everykey" package="SOD123FL" value="MBR230LSFT1" x="50.1" y="69.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="51.1" y="70.7" size="0.8" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="LIM" library="anykey" package="0603_SOLDERJUMPER_OPEN" value="JUMPERSOLDER_OPEN" x="50.7" y="79" smashed="yes">
+<element name="LIM" library="everykey" package="0603_SOLDERJUMPER_OPEN" value="JUMPERSOLDER_OPEN" x="50.7" y="79" smashed="yes">
 <attribute name="NAME" x="49.778" y="77.554" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="R35" library="anykey" package="0603" value="100K" x="47.1" y="70.3" smashed="yes">
+<element name="R35" library="everykey" package="0603" value="100K" x="47.1" y="70.3" smashed="yes">
 <attribute name="NAME" x="48.622" y="69.646" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="R36" library="anykey" package="0603" value="100K" x="44.2" y="70.3" smashed="yes">
+<element name="R36" library="everykey" package="0603" value="100K" x="44.2" y="70.3" smashed="yes">
 <attribute name="NAME" x="45.122" y="69.646" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="ETH" library="anykey" package="RJ45-RB1-125BAG1A" value="ETHERNET_JACK_LEDSRB1-125BAG1A" x="60" y="70.4" smashed="yes" rot="R180">
+<element name="ETH" library="everykey" package="RJ45-RB1-125BAG1A" value="ETHERNET_JACK_LEDSRB1-125BAG1A" x="60" y="70.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="51.6" y="59.6" size="1" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="!PGM" library="anykey" package="CK-KMR2" value="PUSHBUTTONKMR2XX" x="51.2" y="41.9" smashed="yes" rot="R90"/>
-<element name="R37" library="anykey" package="0603" value="100K" x="53.3" y="44.8" smashed="yes" rot="R90">
+<element name="!PGM" library="everykey" package="CK-KMR2" value="PUSHBUTTONKMR2XX" x="51.2" y="41.9" smashed="yes" rot="R90"/>
+<element name="R37" library="everykey" package="0603" value="100K" x="53.3" y="44.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="54.746" y="43.778" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="R38" library="anykey" package="0603" value="2K2" x="52" y="49.8" smashed="yes">
+<element name="R38" library="everykey" package="0603" value="2K2" x="52" y="49.8" smashed="yes">
 <attribute name="NAME" x="51.078" y="48.354" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="R39" library="anykey" package="0603" value="2K2" x="52" y="51.3" smashed="yes">
+<element name="R39" library="everykey" package="0603" value="2K2" x="52" y="51.3" smashed="yes">
 <attribute name="NAME" x="54.246" y="49.878" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="IC4" library="anykey" package="SC70JW-8-NOTHERMALS" value="SKYWORKS_AAT4280ASC70JW-8-NOTHERMALS" x="67.1" y="49.6" smashed="yes" rot="R90">
+<element name="IC4" library="everykey" package="SC70JW-8-NOTHERMALS" value="SKYWORKS_AAT4280ASC70JW-8-NOTHERMALS" x="67.1" y="49.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="65.9" y="49.2" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="IC5" library="anykey" package="SC70JW-8-NOTHERMALS" value="SKYWORKS_AAT4280ASC70JW-8-NOTHERMALS" x="15.7" y="4.1" smashed="yes" rot="R270">
+<element name="IC5" library="everykey" package="SC70JW-8-NOTHERMALS" value="SKYWORKS_AAT4280ASC70JW-8-NOTHERMALS" x="15.7" y="4.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.4" y="4.5" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="IC6" library="anykey" package="SC70JW-8-NOTHERMALS" value="SKYWORKS_AAT4280ASC70JW-8-NOTHERMALS" x="59" y="23.7" smashed="yes" rot="R270">
+<element name="IC6" library="everykey" package="SC70JW-8-NOTHERMALS" value="SKYWORKS_AAT4280ASC70JW-8-NOTHERMALS" x="59" y="23.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="57.8" y="24" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="IC7" library="anykey" package="SC70JW-8-NOTHERMALS" value="SKYWORKS_AAT4280ASC70JW-8-NOTHERMALS" x="58.6" y="29.8" smashed="yes" rot="R270">
+<element name="IC7" library="everykey" package="SC70JW-8-NOTHERMALS" value="SKYWORKS_AAT4280ASC70JW-8-NOTHERMALS" x="58.6" y="29.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="57.4" y="29" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="IC8" library="anykey" package="SC70JW-8-NOTHERMALS" value="SKYWORKS_AAT4280ASC70JW-8-NOTHERMALS" x="21.5" y="19" smashed="yes">
+<element name="IC8" library="everykey" package="SC70JW-8-NOTHERMALS" value="SKYWORKS_AAT4280ASC70JW-8-NOTHERMALS" x="21.5" y="19" smashed="yes">
 <attribute name="NAME" x="23.1" y="19.3" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C30" library="anykey" package="0603" value="100n" x="17.3" y="23.1" smashed="yes" rot="R90">
+<element name="C30" library="everykey" package="0603" value="100n" x="17.3" y="23.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="17.978" y="22.754" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="WL_EN" library="anykey" package="0603_SOLDERJUMPER_CLOSED" value="JUMPERSOLDER_CLOSED" x="23.4" y="16.3" smashed="yes" rot="R180">
+<element name="WL_EN" library="everykey" package="0603_SOLDERJUMPER_CLOSED" value="JUMPERSOLDER_CLOSED" x="23.4" y="16.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="22.478" y="16.954" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="CC_DEBUG" library="anykey" package="2X05_SMT" value="HEADER-2X5SMD-1.27MM" x="21.3" y="10.5" smashed="yes" rot="R270">
+<element name="CC_DEBUG" library="everykey" package="2X05_SMT" value="HEADER-2X5SMD-1.27MM" x="21.3" y="10.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="18.295" y="14.055" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C35" library="anykey" package="0603" value="100n" x="67.1" y="46.9" smashed="yes">
+<element name="C35" library="everykey" package="0603" value="100n" x="67.1" y="46.9" smashed="yes">
 <attribute name="NAME" x="66.078" y="45.454" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C36" library="anykey" package="0603" value="100n" x="15.7" y="6.8" smashed="yes" rot="R180">
+<element name="C36" library="everykey" package="0603" value="100n" x="15.7" y="6.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.422" y="7.146" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C37" library="anykey" package="0603" value="100n" x="59" y="25.9" smashed="yes" rot="R180">
+<element name="C37" library="everykey" package="0603" value="100n" x="59" y="25.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="57.822" y="26.246" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C74" library="anykey" package="0603" value="100n" x="58.1" y="32" smashed="yes" rot="R180">
+<element name="C74" library="everykey" package="0603" value="100n" x="58.1" y="32" smashed="yes" rot="R180">
 <attribute name="NAME" x="57.178" y="32.654" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C75" library="anykey" package="0603" value="100n" x="19.9" y="21" smashed="yes">
+<element name="C75" library="everykey" package="0603" value="100n" x="19.9" y="21" smashed="yes">
 <attribute name="NAME" x="18.878" y="21.654" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C76" library="anykey" package="0603" value="1µ" x="67.1" y="51.9" smashed="yes">
+<element name="C76" library="everykey" package="0603" value="1µ" x="67.1" y="51.9" smashed="yes">
 <attribute name="NAME" x="63.678" y="51.454" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="C77" library="anykey" package="0603" value="1µ" x="15.7" y="1.7" smashed="yes" rot="R180">
+<element name="C77" library="everykey" package="0603" value="1µ" x="15.7" y="1.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.422" y="2.046" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C78" library="anykey" package="0603" value="1µ" x="59" y="21.5" smashed="yes" rot="R180">
+<element name="C78" library="everykey" package="0603" value="1µ" x="59" y="21.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="57.822" y="21.846" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C79" library="anykey" package="0603" value="1µ" x="60.7" y="29.7" smashed="yes" rot="R90">
+<element name="C79" library="everykey" package="0603" value="1µ" x="60.7" y="29.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="61.146" y="26.278" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C80" library="anykey" package="0603" value="1µ" x="22.4" y="21.7" smashed="yes" rot="R90">
+<element name="C80" library="everykey" package="0603" value="1µ" x="22.4" y="21.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="23.154" y="22.822" size="0.8" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="5VDC_IN" library="anykey" package="CUI_PJ_102BH" value="2A max" x="18.3" y="70.6" smashed="yes" rot="R270">
+<element name="5VDC_IN" library="everykey" package="CUI_PJ_102BH" value="2A max" x="18.3" y="70.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="13.32" y="74.04" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="IC9" library="anykey" package="FXMA108" value="FXMA10820-DFN" x="21" y="27" smashed="yes">
+<element name="IC9" library="everykey" package="FXMA108" value="FXMA10820-DFN" x="21" y="27" smashed="yes">
 <attribute name="NAME" x="20" y="29" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="UART_5V" library="anykey" package="1X05_ROUND" value="UART_5V" x="1.905" y="40.005" smashed="yes" rot="R90">
+<element name="UART_5V" library="everykey" package="1X05_ROUND" value="UART_5V" x="1.905" y="40.005" smashed="yes" rot="R90">
 <attribute name="NAME" x="0.2788" y="46.9238" size="0.8" layer="25" font="vector" ratio="10"/>
 </element>
-<element name="GPIO_5V" library="anykey" package="1X07_ROUND" value="HEADER-1X7ROUND" x="6.985" y="40.005" smashed="yes" rot="R90">
+<element name="GPIO_5V" library="everykey" package="1X07_ROUND" value="HEADER-1X7ROUND" x="6.985" y="40.005" smashed="yes" rot="R90">
 <attribute name="NAME" x="4.9388" y="48.7438" size="0.8" layer="25" font="vector" ratio="10"/>
 </element>
-<element name="SPI0" library="anykey" package="1X07_ROUND" value="HEADER-1X7ROUND" x="12.065" y="57.785" smashed="yes" rot="R90">
+<element name="SPI0" library="everykey" package="1X07_ROUND" value="HEADER-1X7ROUND" x="12.065" y="57.785" smashed="yes" rot="R90">
 <attribute name="NAME" x="10.8188" y="67.1638" size="0.8" layer="25" font="vector" ratio="10"/>
 </element>
-<element name="UART2" library="anykey" package="1X06_ROUND" value="UART2" x="17.145" y="56.515" smashed="yes" rot="R90">
+<element name="UART2" library="everykey" package="1X06_ROUND" value="UART2" x="17.145" y="56.515" smashed="yes" rot="R90">
 <attribute name="NAME" x="15.7188" y="64.5838" size="0.8" layer="25" font="vector" ratio="10"/>
 </element>
-<element name="UART3" library="anykey" package="1X07_ROUND" value="HEADER-1X7ROUND" x="6.985" y="60.325" smashed="yes" rot="R90">
+<element name="UART3" library="everykey" package="1X07_ROUND" value="HEADER-1X7ROUND" x="6.985" y="60.325" smashed="yes" rot="R90">
 <attribute name="NAME" x="5.2588" y="69.7438" size="0.8" layer="25" font="vector" ratio="10"/>
 </element>
-<element name="ADC" library="anykey" package="1X07_ROUND" value="HEADER-1X7ROUND" x="1.905" y="60.325" smashed="yes" rot="R90">
+<element name="ADC" library="everykey" package="1X07_ROUND" value="HEADER-1X7ROUND" x="1.905" y="60.325" smashed="yes" rot="R90">
 <attribute name="NAME" x="1.0588" y="69.5238" size="0.8" layer="25" font="vector" ratio="10"/>
 </element>
-<element name="LOGO2" library="anykey" package="LOGO-KRONE" value="LOGOKRONE" x="50.6" y="30" rot="MR180"/>
-<element name="LOGO3" library="anykey" package="LOGO-KRONE" value="LOGOKRONE" x="31.6" y="30" rot="MR180"/>
-<element name="LOGO4" library="anykey" package="LOGO-KRONE" value="LOGOKRONE" x="12.6" y="30" rot="MR180"/>
-<element name="R40" library="anykey" package="0603" value="33" x="48" y="37.8" smashed="yes">
+<element name="LOGO2" library="everykey" package="LOGO-KRONE" value="LOGOKRONE" x="50.6" y="30" rot="MR180"/>
+<element name="LOGO3" library="everykey" package="LOGO-KRONE" value="LOGOKRONE" x="31.6" y="30" rot="MR180"/>
+<element name="LOGO4" library="everykey" package="LOGO-KRONE" value="LOGOKRONE" x="12.6" y="30" rot="MR180"/>
+<element name="R40" library="everykey" package="0603" value="33" x="48" y="37.8" smashed="yes">
 <attribute name="NAME" x="47.078" y="38.354" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="R41" library="anykey" package="0603" value="33" x="50.5" y="38.5" smashed="yes" rot="R90">
+<element name="R41" library="everykey" package="0603" value="33" x="50.5" y="38.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.278" y="38.754" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="R42" library="anykey" package="0603" value="10K" x="56.3" y="51" smashed="yes">
+<element name="R42" library="everykey" package="0603" value="10K" x="56.3" y="51" smashed="yes">
 <attribute name="NAME" x="55.378" y="49.554" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="BAL1" library="anykey" package="ST_BAL_WLCSP" value="BALUNWLCSP" x="71" y="9" smashed="yes" rot="R315">
+<element name="BAL1" library="everykey" package="ST_BAL_WLCSP" value="BALUNWLCSP" x="71" y="9" smashed="yes" rot="R315">
 <attribute name="NAME" x="70.82218125" y="10.067765625" size="0.8" layer="25" font="vector" rot="R315"/>
 </element>
-<element name="BATT" library="anykey" package="S2B-PH-SM4-TB" value="BATTERY_WITH_HOLDER" x="75.7" y="44.2" smashed="yes" rot="R270">
+<element name="BATT" library="everykey" package="S2B-PH-SM4-TB" value="BATTERY_WITH_HOLDER" x="75.7" y="44.2" smashed="yes" rot="R270">
 <attribute name="NAME" x="69.2" y="42.9" size="0.8" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="R43" library="anykey" package="0603" value="806" x="32.5" y="70.6" smashed="yes" rot="R180">
+<element name="R43" library="everykey" package="0603" value="806" x="32.5" y="70.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.854" y="69.822" size="0.8" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="R44" library="anykey" package="0603" value="806" x="32.5" y="69.1" smashed="yes" rot="R180">
+<element name="R44" library="everykey" package="0603" value="806" x="32.5" y="69.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.854" y="72.122" size="0.8" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="R45" library="anykey" package="0603" value="806" x="32.5" y="72.1" smashed="yes" rot="R180">
+<element name="R45" library="everykey" package="0603" value="806" x="32.5" y="72.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="31.578" y="72.854" size="0.8" layer="25" font="vector"/>
 </element>
-<element name="LED2" library="anykey" package="0603_POLAR" value="" x="29.4" y="72.1" smashed="yes" rot="R180">
+<element name="LED2" library="everykey" package="0603_POLAR" value="" x="29.4" y="72.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.222" y="72.546" size="0.8" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="27.622" y="72.735" size="0.5" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="LED3" library="anykey" package="0603_POLAR" value="" x="29.4" y="70.6" smashed="yes" rot="R180">
+<element name="LED3" library="everykey" package="0603_POLAR" value="" x="29.4" y="70.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.222" y="71.046" size="0.8" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="27.622" y="71.235" size="0.5" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="LED4" library="anykey" package="0603_POLAR" value="" x="29.4" y="69.1" smashed="yes" rot="R180">
+<element name="LED4" library="everykey" package="0603_POLAR" value="" x="29.4" y="69.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.222" y="69.546" size="0.8" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="27.622" y="69.735" size="0.5" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="I2S" library="anykey" package="2X05_SMT" value="HEADER-2X5SMD-1.27MM" x="61.5" y="42.1" smashed="yes" rot="R90">
+<element name="I2S" library="everykey" package="2X05_SMT" value="HEADER-2X5SMD-1.27MM" x="61.5" y="42.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="62.5" y="38.7" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="HEADPHONE" library="anykey" package="CUI_SJ_3523_SMT" value="AUDIOJACK-STEREO-3PCUI_SJ_3523" x="77.3" y="34" smashed="yes" rot="R180">
+<element name="HEADPHONE" library="everykey" package="CUI_SJ_3523_SMT" value="AUDIOJACK-STEREO-3PCUI_SJ_3523" x="77.3" y="34" smashed="yes" rot="R180">
 <attribute name="NAME" x="70.6" y="37.2" size="0.8" layer="25" font="vector"/>
 </element>
 </elements>
