@@ -19854,12 +19854,23 @@ Only one star connection from PGND to GND below TPS2500.</text>
 <approved hash="104,9,111.76,7.62,BAL1,DC,BT_VDD_PA,,,"/>
 <approved hash="104,2,210.82,162.56,BATT,+,VBAT,,,"/>
 <approved hash="104,2,210.82,149.86,BATT,-,GND,,,"/>
+<approved hash="106,7,55.88,50.8,AUDIO_GPIO1,,,,,"/>
+<approved hash="106,1,50.8,48.26,AVAIL2,,,,,"/>
+<approved hash="106,1,91.44,147.32,AVAIL6,,,,,"/>
+<approved hash="106,4,50.8,43.18,ETH_RX_ER,,,,,"/>
+<approved hash="106,1,50.8,-15.24,UART1_DCD,,,,,"/>
+<approved hash="106,1,50.8,-2.54,UART1_DSR,,,,,"/>
+<approved hash="106,1,50.8,-5.08,UART1_DTR,,,,,"/>
+<approved hash="106,1,50.8,-10.16,UART1_RI,,,,,"/>
 <approved hash="208,2,180.34,71.12,VETH33,out,,,,"/>
 <approved hash="208,4,170.18,86.36,VETH33,sup,,,,"/>
 <approved hash="208,4,116.84,45.72,VETH33,sup,,,,"/>
 <approved hash="208,4,99.06,104.14,VETH33,sup,,,,"/>
 <approved hash="208,4,185.42,33.02,VETH33,sup,,,,"/>
 <approved hash="208,4,40.64,104.14,VETH33,sup,,,,"/>
+<approved hash="113,1,142.24,142.928,LED2,,,,,"/>
+<approved hash="113,1,147.32,140.388,LED3,,,,,"/>
+<approved hash="113,1,152.4,137.848,LED4,,,,,"/>
 </errors>
 </schematic>
 </drawing>
