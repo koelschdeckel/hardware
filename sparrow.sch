@@ -14978,7 +14978,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="R1" library="everykey" deviceset="R-EU_" device="0603" value="768K"/>
 <part name="R2" library="everykey" deviceset="R-EU_" device="0603" value="2.4M"/>
 <part name="R3" library="everykey" deviceset="R-EU_" device="0603" value="806"/>
-<part name="R4" library="everykey" deviceset="R-EU_" device="0603" value="806"/>
+<part name="R4" library="everykey" deviceset="R-EU_" device="0603" value="1K"/>
 <part name="LED1" library="everykey" deviceset="LED" device="0603" value="CHARGE"/>
 <part name="U$3" library="everykey" deviceset="GND" device=""/>
 <part name="U$4" library="everykey" deviceset="VD33" device=""/>
@@ -15214,9 +15214,9 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="U$6" library="everykey" deviceset="VETH33" device=""/>
 <part name="BAL1" library="everykey" deviceset="BALUN" device="WLCSP"/>
 <part name="BATT" library="everykey" deviceset="BATTERY_WITH_HOLDER" device=""/>
-<part name="R43" library="everykey" deviceset="R-EU_" device="0603" value="806"/>
-<part name="R44" library="everykey" deviceset="R-EU_" device="0603" value="806"/>
-<part name="R45" library="everykey" deviceset="R-EU_" device="0603" value="806"/>
+<part name="R43" library="everykey" deviceset="R-EU_" device="0603" value="1K"/>
+<part name="R44" library="everykey" deviceset="R-EU_" device="0603" value="1K"/>
+<part name="R45" library="everykey" deviceset="R-EU_" device="0603" value="1K"/>
 <part name="LED2" library="everykey" deviceset="LED" device="0603"/>
 <part name="LED3" library="everykey" deviceset="LED" device="0603"/>
 <part name="LED4" library="everykey" deviceset="LED" device="0603"/>
