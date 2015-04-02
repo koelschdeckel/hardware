@@ -1,4 +1,5 @@
-= Introducation
+Introduction
+============
 
 ^^dkl is an Open Source hardware project that is being developed in
 cooperation between the City of Cologne and Press Any Key UG. The
