@@ -1951,6 +1951,7 @@ Source: http://www.vishay.com/docs/31059/wsrhigh.pdf</description>
 <circle x="1.25" y="0" radius="0.045" width="0" layer="21"/>
 <text x="-1.8" y="1.4" size="0.8" layer="25" font="vector">&gt;NAME</text>
 <text x="-2.2" y="-2.2" size="0.8" layer="27" font="vector">&gt;VALUE</text>
+<circle x="-1.6" y="-1.35" radius="0.1" width="0" layer="21"/>
 </package>
 <package name="TYCO-FSM4JSMA">
 <description>Tyco/Alcoswitch miniature pushbutton</description>
@@ -7310,7 +7311,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.127" layer="51"/>
 <wire x1="-0.9" y1="1.25" x2="0.9" y2="1.25" width="0.127" layer="21"/>
 <wire x1="-0.9" y1="-1.25" x2="0.9" y2="-1.25" width="0.127" layer="21"/>
-<text x="0" y="0" size="1" layer="21" font="vector" align="center">+-</text>
+<text x="0" y="0" size="1" layer="21" font="vector" rot="SR0" align="center">+-</text>
 </package>
 <package name="QFN32-0.5-EP-VIAS">
 <description>QFN package, 32 pins, 0.5mm pitch, exposed pad with 9 thermal vias</description>
@@ -15051,7 +15052,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="U$24" library="everykey" deviceset="VD33" device=""/>
 <part name="U$22" library="everykey" deviceset="VETH33" device=""/>
 <part name="U$25" library="everykey" deviceset="VETH33" device=""/>
-<part name="X4" library="everykey" deviceset="OSCILLATOR" device="25X20" value="50MHZ"/>
+<part name="X4" library="everykey" deviceset="OSCILLATOR" device="25X20" value="50MHZ Silabs 501"/>
 <part name="U$27" library="everykey" deviceset="GND" device=""/>
 <part name="C34" library="everykey" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
 <part name="U$23" library="everykey" deviceset="VETH33" device=""/>
